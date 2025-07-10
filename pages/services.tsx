@@ -11,6 +11,8 @@ import { Contact } from '../components/Contact'
 import StrategySection from '../components/StrategySection' // Import the new strategy section (British English comment)
 import Head from 'next/head'
 import Image from 'next/image'
+// Import JSX namespace for type support (British English comment)
+import { JSX } from 'react'
 
 export default function Services() {
   const { t } = useTranslation('services')
