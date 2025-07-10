@@ -15,7 +15,8 @@ const icons = [
 export const ProblemSolvingSteps: React.FC = () => {
   // Use the problemSolving namespace for all text
   const { t } = useTranslation('problemSolving')
-  const steps = t('steps', { returnObjects: true }) as Array<{ title: string; desc: string }>
+  const stepsRaw = t('steps', { returnObjects: true })
+  const steps = Array.isArray(stepsRaw) ? stepsRaw : [] // Ensure steps is always an array (British English comment)
 
   return (
     // Main section for the 6 steps

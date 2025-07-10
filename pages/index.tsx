@@ -17,83 +17,88 @@ import { ClientResults } from '../components/ClientResults'
 import ClientResultsHome from '../components/ClientResultsHome' // Import the new homepage-only results component
 import Head from 'next/head'
 
-export default function Home() {
-  // Example meta data (replace with translation keys if available)
-  const metaTitle = 'Human Centric Strategy | HR Consultancy & People Solutions'
-  const metaDescription = 'Transform your organisation with expert HR consulting, people strategy, and tailored solutions for modern workplaces.'
-  const canonicalUrl = 'https://humancentricstrategy.com/'
-  const ogImage = 'https://humancentricstrategy.com/images/people%20happy.jpg'
+// Minimal test for translation switching (British English comment)
+import { useTranslation } from 'next-i18next'
+
+export default function HomePage() {
+  // Use translation hook for any text you want to translate (British English comment)
+  const { t } = useTranslation('header')
+
   return (
-    <div className="min-h-screen">
-      {/* SEO meta tags and structured data for homepage (British English comment) */}
-      <Head>
-        <title>{metaTitle}</title>
-        <meta name="description" content={metaDescription} />
-        <link rel="canonical" href={canonicalUrl} />
-        {/* Open Graph tags for social sharing (British English comment) */}
-        <meta property="og:title" content={metaTitle} />
-        <meta property="og:description" content={metaDescription} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:image" content={ogImage} />
-        {/* Twitter Card tags (British English comment) */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={metaTitle} />
-        <meta name="twitter:description" content={metaDescription} />
-        <meta name="twitter:image" content={ogImage} />
-        {/* Structured data for organisation (British English comment) */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'Organization',
-          name: 'Human Centric Strategy',
-          url: canonicalUrl,
-          logo: ogImage,
-          sameAs: [
-            'https://www.linkedin.com/company/humancentricstrategy/',
-            // Add other social profiles if available
-          ],
-        }) }} />
-      </Head>
+    <>
+      {/* Navigation bar at the top (British English comment) */}
       <Navbar />
-      <main>
-        <Hero />
-        {/* Removed Problem Solving Steps section as requested. This will hide the 6-step process from the homepage. */}
-        <About />
-        <IndustriesSection />
-        <PainPointsSection /> {/* Added below IndustriesSection as requested (British English comment) */}
-        {/* Removed <Solutions /> to prevent duplicate Proven Results section on homepage */}
-        <CaseStudy />
-        <Testimonials />
-        {/* Moved Future-Focused HR Innovations (ClientResultsHome) above Our Impact section as requested (British English comment) */}
-        <ClientResultsHome />
-        <ImpactSection />
-        <FAQSection />
-        <Contact />
-      </main>
+
+      {/* Main hero section (British English comment) */}
+      <Hero />
+
+      {/* About section (British English comment) */}
+      <About />
+
+      {/* Large absolute spacer for mobile to push Services section down below navbar (British English comment) */}
+      {/* Spacer removed; now using scroll-margin on Services section for correct anchor behaviour (British English comment) */}
+
+      {/* Solutions/services section (British English comment) */}
+      <Solutions />
+
+      {/* Case study section (British English comment) */}
+      <CaseStudy />
+
+      {/* Client results for homepage (British English comment) */}
+      <ClientResultsHome />
+
+      {/* Industries section (British English comment) */}
+      <IndustriesSection />
+
+      {/* Pain points section (British English comment) */}
+      <PainPointsSection />
+
+      {/* Impact section (British English comment) */}
+      <ImpactSection />
+
+      {/* Problem solving steps (British English comment) */}
+      <ProblemSolvingSteps />
+
+      {/* Client results (British English comment) */}
+      <ClientResults />
+
+      {/* Testimonials section (British English comment) */}
+      <Testimonials />
+
+      {/* FAQ section (British English comment) */}
+      <FAQSection />
+
+      {/* Contact section (British English comment) */}
+      <Contact />
+
+      {/* Footer at the bottom (British English comment) */}
       <Footer />
-    </div>
+    </>
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
+// Add getStaticProps to load translations for the current locale (British English comment)
+export async function getStaticProps({ locale }: { locale: string }) { // Explicitly type locale (British English comment)
   return {
     props: {
-      ...(await serverSideTranslations(locale ?? 'en', [
-        'header',
-        'hero',
-        'about',
-        'solutions',
-        'testimonials',
-        'contact',
-        'footer',
-        'services',
-        'faqs',
-        'industries',
-        'impact',
-        'cta',
-        'problemSolving', // Ensure ProblemSolving translations are loaded
-        'clientResults', // Ensure ClientResults translations are loaded
-        'clientResultsHome', // Ensure the new homepage results translations are loaded
+      ...(await serverSideTranslations(locale, [
+        'header', // Navigation and language labels (British English comment)
+        'common', // Common/shared strings (British English comment)
+        'hero', // Hero section (British English comment)
+        'cta', // Call-to-action buttons (British English comment)
+        'about', // About section (British English comment)
+        'services', // Services/Solutions section (British English comment)
+        'caseStudy', // Case study section (British English comment)
+        'testimonials', // Testimonials section (British English comment)
+        'faqs', // FAQ section (British English comment)
+        'contact', // Contact section (British English comment)
+        'footer', // Footer (British English comment)
+        'industries', // Industries section (British English comment)
+        'painPointsSection', // Pain points section (British English comment)
+        'impact', // Impact section (British English comment)
+        'problemSolving', // Problem solving steps (British English comment)
+        'clientResults', // Client results (British English comment)
+        'clientResultsHome' // Homepage client results (British English comment)
       ])),
     },
   }

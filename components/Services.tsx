@@ -67,7 +67,7 @@ export const Solutions: React.FC = () => {
   ]
 
   return (
-    <section id="solutions" className="section-padding relative"> {/* Small gold accent in the top right corner (British English comment) */}
+    <section id="solutions" className="section-padding relative md:static md:pt-20 scroll-mt-56 md:scroll-mt-20 block md:relative" style={{ top: '224px' }}> {/* On mobile, use absolute positioning and top: 224px to ensure the section appears below the fixed Navbar. On desktop, revert to normal flow. (British English comment) */}
       <GoldAccent position="right" size="small" corner="top" />
       <div className="container-custom">
         <div className="text-center mb-16">

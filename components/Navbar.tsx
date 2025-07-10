@@ -18,8 +18,8 @@ export const Navbar: React.FC = () => {
     { href: '/services', label: t('navbar.services') }, // Services page
     { href: '/blog', label: t('navbar.blog') }, // Blog page
     { href: '/#about', label: t('navbar.about') }, // About section on homepage
-    { href: '/guide', label: 'Guide Page' }, // Guide Page replaces Solutions (British English comment)
-    { href: '/#testimonials', label: t('navbar.testimonials') }, // Testimonials section on homepage
+    { href: '/guide', label: t('navbar.guide') }, // Guide Page now uses translation key (British English comment)
+    { href: '/#testimonials', label: t('navbar.testimonials') }, // Testimonials section on homepage, translation key (British English comment)
     { href: '/#contact', label: t('navbar.contact') }, // Contact section on homepage
   ]
 
@@ -30,7 +30,7 @@ export const Navbar: React.FC = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/70 dark:bg-dark/70 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
       {/* Increased navbar height to h-44 + 14px for 30px more background space */}
       <div className="container-custom">
-        <div className="flex items-center justify-between h-56 md:h-56 lg:h-48 pb-6 md:pb-6 lg:pb-5">{/* Increased navbar height for all breakpoints, more space for logo (American English comment) */}
+        <div className="flex items-center justify-between h-44 md:h-56 lg:h-48 pb-6 md:pb-6 lg:pb-5">{/* Reduced mobile navbar height by 50px (h-44 instead of h-56) for better alignment on mobiles (British English comment) */}
           {/* Logo - Reduced top padding (pt-5) to move logo up by 20px */}
           <Link href="/" className="flex items-center pt-5">
             {/* Logo image with white background for visibility in all modes */}

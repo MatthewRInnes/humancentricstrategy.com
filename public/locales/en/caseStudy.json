@@ -1,0 +1,19 @@
+{
+  "left": {
+    "stat1": "42%",
+    "desc1": "Increase in employee retention",
+    "stat2": "15%",
+    "desc2": "Reduction in HR costs"
+  },
+  "title": "Case Study: HR Transformation",
+  "subtitle": "How we helped a client achieve success",
+  "center": {
+    "desc": "We partnered with a leading organisation to transform their HR processes, resulting in measurable improvements."
+  },
+  "right": {
+    "stat1": "95%",
+    "desc1": "Employee satisfaction after project",
+    "stat2": "30%",
+    "desc2": "Increase in productivity"
+  }
+} 

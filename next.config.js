@@ -1,15 +1,13 @@
 /** @type {import('next').NextConfig} */
+const { i18n } = require('./next-i18next.config'); // Import i18n config (British English comment)
+
 module.exports = {
   reactStrictMode: true,
   images: {
     domains: ['via.placeholder.com'],
     formats: ['image/webp', 'image/avif'],
   },
-  // Disable i18n in next.config.js as it's handled by next-i18next
-  // i18n: {
-  //   locales: ['en', 'es'],
-  //   defaultLocale: 'en',
-  // },
+  i18n, // Enable i18n for Next.js to pass locale to getStaticProps (British English comment)
   webpack: (config) => {
     return config
   },

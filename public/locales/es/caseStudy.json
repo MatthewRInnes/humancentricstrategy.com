@@ -1,0 +1,19 @@
+{
+  "left": {
+    "stat1": "42%",
+    "desc1": "Aumento en la retención de empleados",
+    "stat2": "15%",
+    "desc2": "Reducción en los costes de RRHH"
+  },
+  "title": "Caso de Éxito: Transformación de RRHH",
+  "subtitle": "Cómo ayudamos a un cliente a lograr el éxito",
+  "center": {
+    "desc": "Colaboramos con una organización líder para transformar sus procesos de RRHH, logrando mejoras medibles."
+  },
+  "right": {
+    "stat1": "95%",
+    "desc1": "Satisfacción de empleados tras el proyecto",
+    "stat2": "30%",
+    "desc2": "Aumento de la productividad"
+  }
+} 
