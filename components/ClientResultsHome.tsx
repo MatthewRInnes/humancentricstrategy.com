@@ -20,7 +20,9 @@ const ClientResultsHome: React.FC = () => {
   // Use the clientResultsHome namespace for all text
   const { t } = useTranslation('clientResultsHome')
   // Get the array of results from the translation file
-  const results = t('results', { returnObjects: true }) as any
+  let results = t('results', { returnObjects: true }) as any
+  // Fallback: If results is not an array, use an empty array (British English comment)
+  if (!Array.isArray(results)) results = [];
 
   // Defensive check: Ensure results is an array before mapping
   if (!Array.isArray(results)) {

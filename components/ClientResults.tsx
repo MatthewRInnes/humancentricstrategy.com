@@ -17,6 +17,16 @@ export const ClientResults: React.FC = () => {
   const { t } = useTranslation('clientResults')
   const results = t('results', { returnObjects: true }) as Array<{ metric: string; title: string; desc: string; label: string }>
 
+  // Defensive check: Ensure results is an array before mapping (British English comment)
+  if (!Array.isArray(results)) {
+    return (
+      <section className="py-16 bg-gold/10 dark:bg-dark text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-4">Error: Results data is not an array</h2>
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">Please check the translation file for 'clientResults' and ensure the 'results' key is an array.</p>
+      </section>
+    )
+  }
+
   return (
     // Main section for client results
     <section className="py-16 bg-gold/10 dark:bg-dark">
