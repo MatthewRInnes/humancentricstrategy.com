@@ -1,19 +1,17 @@
 {
-  "services": {
-    "title": "Nuestros Servicios Básicos",
-    "subtitle": "Lo que ofrecemos para ayudar a que su empresa prospere.",
-    "onboarding": {
-      "title": "Incorporación de Personal",
-      "description": "Dé la bienvenida a los nuevos empleados con una experiencia de incorporación coherente y optimizada que aumenta la productividad desde el primer día."
-    },
-    "sourcing": {
-      "title": "Búsqueda y Adquisición de Talento",
-      "description": "Atraiga al talento adecuado con nuestros procesos de contratación estratégicos y basados en datos y nuestra marca empleadora."
-    },
-    "policy": {
-      "title": "Desarrollo de Políticas",
-      "description": "Manuales de empleados personalizados, procedimientos disciplinarios y políticas adaptadas a la cultura de su empresa y necesidades legales."
-    }
+  "title": "Nuestros Servicios Básicos",
+  "subtitle": "Lo que ofrecemos para ayudar a que su empresa prospere.",
+  "onboarding": {
+    "title": "Incorporación de Personal",
+    "description": "Dé la bienvenida a los nuevos empleados con una experiencia de incorporación coherente y optimizada que aumenta la productividad desde el primer día."
+  },
+  "sourcing": {
+    "title": "Búsqueda y Adquisición de Talento",
+    "description": "Atraiga al talento adecuado con nuestros procesos de contratación estratégicos y basados en datos y nuestra marca empleadora."
+  },
+  "policy": {
+    "title": "Desarrollo de Políticas",
+    "description": "Manuales de empleados personalizados, procedimientos disciplinarios y políticas adaptadas a la cultura de su empresa y necesidades legales."
   },
   "pageTitle": "Nuestros Servicios",
   "pageIntro": "Ofrecemos soluciones de RRHH escalables y centradas en las personas, adaptadas al crecimiento, cumplimiento y cultura de su organización.",

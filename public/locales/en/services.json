@@ -1,19 +1,17 @@
 {
-  "services": {
-    "title": "Our Core Services",
-    "subtitle": "What we offer to help your business thrive.",
-    "onboarding": {
-      "title": "HR Onboarding",
-      "description": "Welcome new hires with a streamlined, consistent onboarding experience that boosts productivity from day one."
-    },
-    "sourcing": {
-      "title": "Talent Sourcing & Acquisition",
-      "description": "We use proven sourcing strategies and employer branding to attract top talent, ensuring the best fit for your organization's needs."
-    },
-    "policy": {
-      "title": "Policy Development",
-      "description": "Custom employee handbooks, disciplinary procedures, and policies tailored to your company culture and legal needs."
-    }
+  "title": "Our Core Services",
+  "subtitle": "What we offer to help your business thrive.",
+  "onboarding": {
+    "title": "HR Onboarding",
+    "description": "Welcome new hires with a streamlined, consistent onboarding experience that boosts productivity from day one."
+  },
+  "sourcing": {
+    "title": "Talent Sourcing & Acquisition",
+    "description": "We use proven sourcing strategies and employer branding to attract top talent, ensuring the best fit for your organization's needs."
+  },
+  "policy": {
+    "title": "Policy Development",
+    "description": "Custom employee handbooks, disciplinary procedures, and policies tailored to your company culture and legal needs."
   },
   "pageTitle": "Our Services",
   "pageIntro": "Delivering scalable, people-first HR solutions tailored to your organization's growth, compliance, and culture.",
