@@ -59,9 +59,6 @@ export default function HomePage() {
       {/* Problem solving steps (British English comment) */}
       <ProblemSolvingSteps />
 
-      {/* Client results (British English comment) */}
-      <ClientResults />
-
       {/* Testimonials section (British English comment) */}
       <Testimonials />
 

@@ -15,5 +15,50 @@
     "desc1": "Satisfacción de empleados tras el proyecto",
     "stat2": "30%",
     "desc2": "Aumento de la productividad"
-  }
+  },
+  "cards": [
+    {
+      "icon": "📈",
+      "title": "Impulso de Capacidades de Liderazgo",
+      "desc": "Aumentó la efectividad del liderazgo en un 30% mediante iniciativas de L&D y coaching ejecutivo.",
+      "metric": "30%",
+      "metricLabel": "Crecimiento de Liderazgo"
+    },
+    {
+      "icon": "🎯",
+      "title": "Diseño de Cultura y Compromiso",
+      "desc": "Mejoró el compromiso de los empleados en un 40% a través de evaluaciones culturales y alineación de valores.",
+      "metric": "40%",
+      "metricLabel": "Cambio Cultural"
+    },
+    {
+      "icon": "⚙️",
+      "title": "Integración de Tecnología de RRHH",
+      "desc": "Redujo la administración manual de RRHH en un 50% con flujos de trabajo digitales y portales de autoservicio.",
+      "metric": "50%",
+      "metricLabel": "Eficiencia Operativa"
+    },
+    {
+      "icon": "🌍",
+      "title": "Estrategias de Contratación Inclusiva",
+      "desc": "Triplicó la diversidad de candidatos en los procesos de selección mediante diseño inclusivo y formación en sesgos.",
+      "metric": "3x",
+      "metricLabel": "Talento Diverso"
+    },
+    {
+      "icon": "🚀",
+      "title": "Automatización del Ciclo de Vida del Empleado",
+      "desc": "Redujo el tiempo de incorporación de nuevos empleados en un 60% mediante procesos automatizados y preboarding atractivo.",
+      "metric": "60%",
+      "metricLabel": "Inicio Sin Fricciones"
+    },
+    {
+      "icon": "🔄",
+      "title": "Agilidad y Cambio Organizacional",
+      "desc": "Logró una tasa de adopción del 95% para nuevos procesos durante una gran transformación.",
+      "metric": "95%",
+      "metricLabel": "Transiciones Ágiles"
+    }
+  ],
+  "learnMore": "Saber más"
 } 

@@ -36,6 +36,16 @@
       "title": "Liderazgo Remoto y Colaboración Digital",
       "desc": "Empoderando a los líderes para inspirar, gestionar y colaborar eficazmente en equipos totalmente remotos o distribuidos.",
       "label": "Liderazgo Remoto"
+    },
+    {
+      "title": "Experiencia Personalizada del Empleado",
+      "desc": "Utilizando tecnología y datos para adaptar los servicios de RRHH, beneficios y comunicaciones a las necesidades y preferencias individuales de cada empleado.",
+      "label": "Toque Personal"
+    },
+    {
+      "title": "Movilidad Global de Talento",
+      "desc": "Facilitando el movimiento fluido de talento a través de fronteras con herramientas digitales, soporte de cumplimiento e integración cultural.",
+      "label": "Movilidad Global"
     }
   ],
   "ctaTitle": "¿Listo para abrazar el futuro de RRHH?",

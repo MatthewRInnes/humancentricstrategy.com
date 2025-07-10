@@ -55,6 +55,20 @@ const CaseStudy: React.FC = () => {
           <div className="text-gray-600 dark:text-gray-300 text-center">{t('right.desc2')}</div>
         </div>
       </div>
+      {/* Strategic HR Achievements Cards (British English comment) */}
+      <div className="grid md:grid-cols-3 gap-8 mt-12 pt-[98px]"> {/* Increased top padding by 50px for extra space (British English comment) */}
+        {(t('cards', { returnObjects: true }) as any[]).map((card: any, idx: number) => (
+          <div key={card.title} className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
+            <div className="text-4xl mb-4">{card.icon}</div>
+            <h3 className="text-xl font-bold text-charcoal dark:text-white mb-2">{card.title}</h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-2">{card.desc}</p>
+            <div className="text-3xl font-bold text-gold mb-2">{card.metric}</div>
+            <div className="text-sm text-gold font-semibold mb-2">{card.metricLabel}</div>
+            <div className="flex-grow" /> {/* Spacer to push button to the bottom for alignment (British English comment) */}
+            <button className="btn-secondary text-sm mt-2">{t('learnMore')}</button>
+          </div>
+        ))}
+      </div>
     </section>
   )
 }

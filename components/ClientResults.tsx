@@ -27,11 +27,11 @@ export const ClientResults: React.FC = () => {
     )
   }
 
+  // Main section for client results (British English comment)
   return (
-    // Main section for client results
-    <section className="py-16 bg-gold/10 dark:bg-dark">
+    <section className="py-4 bg-gold/10 dark:bg-dark">
       {/* Section heading */}
-      <div className="text-center mb-12">
+      <div className="text-center mb-4"> {/* Reduced margin below heading (British English comment) */}
         <h2 className="text-3xl md:text-4xl font-bold text-charcoal dark:text-white mb-4">
           {t('sectionTitle')}
         </h2>
@@ -59,7 +59,7 @@ export const ClientResults: React.FC = () => {
         ))}
       </div>
       {/* CTA section */}
-      <div className="text-center mt-12">
+      <div className="text-center mt-6">
         <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-2">{t('ctaTitle')}</h3>
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">{t('ctaDesc')}</p>
         <button className="btn-primary text-lg px-8 py-4">{t('ctaButton')}</button>

@@ -15,5 +15,50 @@
     "desc1": "Employee satisfaction after project",
     "stat2": "30%",
     "desc2": "Increase in productivity"
-  }
+  },
+  "cards": [
+    {
+      "icon": "📈",
+      "title": "Leadership Capability Uplift",
+      "desc": "Enabled a 30% increase in leadership effectiveness through targeted L&D and executive coaching initiatives.",
+      "metric": "30%",
+      "metricLabel": "Leadership Growth"
+    },
+    {
+      "icon": "🎯",
+      "title": "Culture & Engagement Design",
+      "desc": "Elevated employee engagement by 40% through data-led culture assessments and values-based alignment.",
+      "metric": "40%",
+      "metricLabel": "Culture Shift"
+    },
+    {
+      "icon": "⚙️",
+      "title": "HR Technology Integration",
+      "desc": "Reduced manual HR admin by 50% with digital workflows, self-service portals, and payroll system integrations.",
+      "metric": "50%",
+      "metricLabel": "Operational Efficiency"
+    },
+    {
+      "icon": "🌍",
+      "title": "Inclusive Hiring Strategies",
+      "desc": "Tripled candidate diversity in hiring pipelines using inclusive job design, outreach, and bias mitigation training.",
+      "metric": "3x",
+      "metricLabel": "Diverse Talent"
+    },
+    {
+      "icon": "🚀",
+      "title": "Employee Lifecycle Automation",
+      "desc": "Cut new hire onboarding time by 60% through automated processes and engaging preboarding experiences.",
+      "metric": "60%",
+      "metricLabel": "Frictionless Start"
+    },
+    {
+      "icon": "🔄",
+      "title": "Organizational Agility & Change",
+      "desc": "Achieved a 95% adoption rate for new processes during a major transformation initiative.",
+      "metric": "95%",
+      "metricLabel": "Agile Transitions"
+    }
+  ],
+  "learnMore": "Learn More"
 } 

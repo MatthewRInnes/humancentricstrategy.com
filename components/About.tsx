@@ -7,10 +7,10 @@ export const About: React.FC = () => {
   // Removed redundant 'about.' prefix from translation keys (British English comment)
 
   return (
-    <section id="about" className="section-padding relative"> {/* Small gold accent in the top right corner (British English comment) */}
+    <section id="about" className="py-4 relative"> {/* Reduced vertical padding for About section (British English comment) */}
       <GoldAccent position="right" size="small" corner="top" />
       <div className="container-custom">
-        <div className="text-left mb-16"> {/* Always left-aligned (American English comment) */}
+        <div className="text-left mb-4"> {/* Reduced margin below heading (British English comment) */}
           <h2 className="text-3xl md:text-4xl font-bold text-charcoal dark:text-white mb-4 text-left">
             {t('title')}
           </h2>
