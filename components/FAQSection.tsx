@@ -9,8 +9,18 @@ export const FAQSection: React.FC = () => {
   // Get the array of FAQs from the translation file
   const faqs = t('faqs', { returnObjects: true }) as { question: string; answer: string }[]
 
-  // State to track which FAQ is open (null means none are open)
+  // State to track which FAQ is open (null means none are open) (British English comment)
   const [openIndex, setOpenIndex] = useState<number | null>(null)
+
+  // Defensive check: Ensure faqs is an array before mapping (British English comment)
+  if (!Array.isArray(faqs)) {
+    return (
+      <section className="py-12 bg-gold/10 dark:bg-dark text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-4">Error: FAQs data is not an array</h2>
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">Please check the translation file for 'faqs' and ensure the 'faqs' key is an array.</p>
+      </section>
+    )
+  }
 
   // Function to toggle an FAQ open/closed
   const handleToggle = (idx: number) => {

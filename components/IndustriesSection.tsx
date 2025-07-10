@@ -20,6 +20,16 @@ export const IndustriesSection: React.FC = () => {
   // Get the array of industries from the translation file
   const industries = t('industries', { returnObjects: true }) as { title: string; description: string }[]
 
+  // Defensive check: Ensure industries is an array before mapping (British English comment)
+  if (!Array.isArray(industries)) {
+    return (
+      <section className="py-16 bg-gold/10 dark:bg-dark text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-4">Error: Industries data is not an array</h2>
+        <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">Please check the translation file for 'industries' and ensure the 'industries' key is an array.</p>
+      </section>
+    )
+  }
+
   return (
     <section className="py-16 relative"> {/* Small gold accent in the top right corner (British English comment) */}
       <GoldAccent position="right" size="small" corner="top" />
