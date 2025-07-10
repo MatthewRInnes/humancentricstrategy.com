@@ -42,9 +42,6 @@ export const Navbar: React.FC = () => {
                 height={48}
                 className="object-contain w-10 h-10 md:w-14 md:h-14 lg:w-10 lg:h-10 mb-1" // Made logo even smaller on large screens (British English comment)
               />
-              <span className="font-playfair font-bold text-xs md:text-sm lg:text-base text-charcoal leading-tight tracking-wide text-center">{/* Reduced font size for logo writing (British English comment) */}HUMAN CENTRIC</span>
-              <span className="font-playfair font-bold text-xs md:text-sm lg:text-base text-charcoal leading-tight tracking-wide text-center">{/* Reduced font size for logo writing (British English comment) */}CONSULTING</span>
-              <span className="font-merriweather text-[8px] md:text-[10px] lg:text-xs text-charcoal tracking-widest mt-1 text-center">{/* Reduced font size for tagline (British English comment) */}— YOUR HR BUSINESS PARTNERS —</span>
             </span>
           </Link>
 

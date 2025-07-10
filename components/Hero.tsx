@@ -17,10 +17,10 @@ export const Hero: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-left"> {/* Always left-aligned (American English comment) */}
-            <h1 className="text-5xl font-bold mb-4 text-white">
+            <h1 className="text-5xl font-bold mb-4 text-charcoal dark:text-white">
               {t('heading')}
             </h1>
-            <p className="text-xl text-gray-200 mb-8">
+            <p className="text-xl text-gray-700 dark:text-gray-200 mb-8">
               {t('subtext')}
             </p>
             {/* CTA buttons: Book My Demo and Talk to a Consultant, side by side */}

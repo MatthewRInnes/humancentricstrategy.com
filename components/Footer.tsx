@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
               style={{ padding: '20px 40px' }} // More horizontal padding for a wider logo background (American English comment)
             >
               <Image
-                src="/images/asset 25.png"
+                src="/images/humanGraphic.png"
                 alt="Human Centric Strategy Logo"
                 width={60}
                 height={60}
