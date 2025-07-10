@@ -21,7 +21,8 @@ export const Testimonials: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial: any, index: number) => (
+          {/* Defensive check to ensure testimonials is an array before mapping (British English comment) */}
+          {Array.isArray(testimonials) && testimonials.map((testimonial: any, index: number) => (
             <div
               key={index}
               className="bg-white/80 dark:bg-gray-800/80 p-8 rounded-xl relative" // Frosted-glass card effect (British English comment)

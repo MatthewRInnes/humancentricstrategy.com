@@ -19,29 +19,37 @@ const PainPointsSection: React.FC = () => {
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-10 text-center">{painPoints.description}</p>
         {/* Flex row for cards and image, now wider and with larger elements */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-12 w-full">
-          {/* Left card: High Staff Turnover */}
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg p-10 flex-1 max-w-md min-w-[260px] text-center flex flex-col justify-center items-center">
-            <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-4">{painPoints.cards[0].title}</h3>
-            <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed">{painPoints.cards[0].text}</p>
-          </div>
-          {/* Central circular image, now larger */}
-          <div className="flex-shrink-0 flex justify-center items-center">
-            <div className="rounded-full overflow-hidden border-4 border-gold w-60 h-60 flex items-center justify-center bg-gray-100 dark:bg-gray-700">
-              <Image
-                src="/images/confusing.jpg"
-                alt={painPoints.imageAlt}
-                width={240}
-                height={240}
-                className="object-cover w-60 h-60"
-                priority
-              />
-            </div>
-          </div>
-          {/* Right card: Confusing Compliance Requirements */}
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg p-10 flex-1 max-w-md min-w-[260px] text-center flex flex-col justify-center items-center">
-            <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-4">{painPoints.cards[1].title}</h3>
-            <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed">{painPoints.cards[1].text}</p>
-          </div>
+          {/* Defensive check to ensure painPoints.cards is an array and has at least two elements (British English comment) */}
+          {Array.isArray(painPoints.cards) && painPoints.cards.length >= 2 ? (
+            <>
+              {/* Left card: High Staff Turnover */}
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg p-10 flex-1 max-w-md min-w-[260px] text-center flex flex-col justify-center items-center">
+                <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-4">{painPoints.cards[0].title}</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed">{painPoints.cards[0].text}</p>
+              </div>
+              {/* Central circular image, now larger */}
+              <div className="flex-shrink-0 flex justify-center items-center">
+                <div className="rounded-full overflow-hidden border-4 border-gold w-60 h-60 flex items-center justify-center bg-gray-100 dark:bg-gray-700">
+                  <Image
+                    src="/images/confusing.jpg"
+                    alt={painPoints.imageAlt}
+                    width={240}
+                    height={240}
+                    className="object-cover w-60 h-60"
+                    priority
+                  />
+                </div>
+              </div>
+              {/* Right card: Confusing Compliance Requirements */}
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg p-10 flex-1 max-w-md min-w-[260px] text-center flex flex-col justify-center items-center">
+                <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-4">{painPoints.cards[1].title}</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-base leading-relaxed">{painPoints.cards[1].text}</p>
+              </div>
+            </>
+          ) : (
+            // Fallback if cards are missing or not an array (British English comment)
+            <div className="text-red-500">Content unavailable</div>
+          )}
         </div>
       </div>
     </section>

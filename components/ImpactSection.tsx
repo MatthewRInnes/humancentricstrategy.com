@@ -19,7 +19,8 @@ export const ImpactSection: React.FC = () => {
         </div>
         {/* Stories grid */}
         <div className="grid md:grid-cols-3 gap-8">
-          {stories.map((story, idx) => (
+          {/* Defensive check to ensure stories is an array before mapping (British English comment) */}
+          {Array.isArray(stories) && stories.map((story, idx) => (
             <div key={idx} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 flex flex-col hover:shadow-2xl transition-all duration-300">
               <div className="mb-4">
                 <span className="inline-block bg-gold/20 text-gold font-semibold px-4 py-2 rounded-full text-sm mb-2">{story.industry}</span>
@@ -29,7 +30,7 @@ export const ImpactSection: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-300 mb-4">{story.challenge}</p>
               <h3 className="font-bold text-charcoal dark:text-white mb-2 text-lg">{t('solutionHeading')}</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">{story.solution}</p>
-              <h3 className="font-bold text-gold mb-2 text-lg">{t('resultsHeading')}</h3>
+              <h3 className="text-bold text-gold mb-2 text-lg">{t('resultsHeading')}</h3>
               <p className="text-gold font-semibold">{story.results}</p>
             </div>
           ))}
