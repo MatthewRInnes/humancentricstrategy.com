@@ -4,6 +4,7 @@ import GoldAccent from './GoldAccent'
 
 export const About: React.FC = () => {
   const { t } = useTranslation('about')
+  // Removed redundant 'about.' prefix from translation keys (British English comment)
 
   return (
     <section id="about" className="section-padding relative"> {/* Small gold accent in the top right corner (British English comment) */}
@@ -11,20 +12,20 @@ export const About: React.FC = () => {
       <div className="container-custom">
         <div className="text-left mb-16"> {/* Always left-aligned (American English comment) */}
           <h2 className="text-3xl md:text-4xl font-bold text-charcoal dark:text-white mb-4 text-left">
-            {t('about.title')}
+            {t('title')}
           </h2>
           <p className="text-xl text-gold font-semibold mb-6 text-left">
-            {t('about.subtitle')}
+            {t('subtitle')}
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl leading-relaxed text-left">
-            {t('about.content')}
+            {t('content')}
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {/* Defensive check to ensure features is an array before mapping (British English comment) */}
-          {Array.isArray(t('about.features', { returnObjects: true })) &&
-            (t('about.features', { returnObjects: true }) as any[]).map((feature: any, index: number) => (
+          {Array.isArray(t('features', { returnObjects: true })) &&
+            (t('features', { returnObjects: true }) as any[]).map((feature: any, index: number) => (
               <div
                 key={index}
                 className="bg-gray-50 dark:bg-gray-800 p-8 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-1"

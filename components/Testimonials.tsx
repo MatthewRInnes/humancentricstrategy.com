@@ -5,7 +5,7 @@ import GoldAccent from './GoldAccent'
 export const Testimonials: React.FC = () => {
   const { t } = useTranslation('testimonials')
 
-  const testimonials = t('testimonials.items', { returnObjects: true }) as Array<any>;
+  const testimonials = t('items', { returnObjects: true }) as Array<any>;
 
   return (
     <section id="testimonials" className="section-padding relative"> {/* Gold accent on the right (British English comment) */}
@@ -13,10 +13,10 @@ export const Testimonials: React.FC = () => {
       <div className="container-custom">
         <div className="text-left mb-16"> {/* Always left-aligned (American English comment) */}
           <h2 className="text-3xl md:text-4xl font-bold text-charcoal dark:text-white mb-4 text-left">
-            {t('testimonials.title')}
+            {t('title')}
           </h2>
           <p className="text-xl text-gold font-semibold text-left">
-            {t('testimonials.subtitle')}
+            {t('subtitle')}
           </p>
         </div>
 

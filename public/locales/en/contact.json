@@ -1,13 +1,11 @@
 {
-  "contact": {
-    "title": "Get In Touch",
-    "subtitle": "Ready to Transform Your HR?",
-    "description": "Let's discuss how we can help your organization achieve its HR goals.",
-    "name": "Full Name",
-    "email": "Email Address",
-    "message": "Your Message",
-    "submit": "Send Message",
-    "success": "Thank you! Your message has been sent successfully.",
-    "error": "There was an error sending your message. Please try again."
-  }
+  "title": "Get In Touch",
+  "subtitle": "Ready to Transform Your HR?",
+  "description": "Let's discuss how we can help your organization achieve its HR goals.",
+  "name": "Full Name",
+  "email": "Email Address",
+  "message": "Your Message",
+  "submit": "Send Message",
+  "success": "Thank you! Your message has been sent successfully.",
+  "error": "There was an error sending your message. Please try again."
 } 

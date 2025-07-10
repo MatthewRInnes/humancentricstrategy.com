@@ -1,13 +1,11 @@
 {
-  "contact": {
-    "title": "Póngase en Contacto",
-    "subtitle": "¿Listo para Transformar su RRHH?",
-    "description": "Hablemos sobre cómo podemos ayudar a su organización a alcanzar sus objetivos de RRHH.",
-    "name": "Nombre Completo",
-    "email": "Dirección de Email",
-    "message": "Su Mensaje",
-    "submit": "Enviar Mensaje",
-    "success": "¡Gracias! Su mensaje ha sido enviado exitosamente.",
-    "error": "Hubo un error al enviar su mensaje. Por favor intente de nuevo."
-  }
+  "title": "Póngase en Contacto",
+  "subtitle": "¿Listo para Transformar su RRHH?",
+  "description": "Hablemos sobre cómo podemos ayudar a su organización a alcanzar sus objetivos de RRHH.",
+  "name": "Nombre Completo",
+  "email": "Dirección de Email",
+  "message": "Su Mensaje",
+  "submit": "Enviar Mensaje",
+  "success": "¡Gracias! Su mensaje ha sido enviado exitosamente.",
+  "error": "Hubo un error al enviar su mensaje. Por favor intente de nuevo."
 } 

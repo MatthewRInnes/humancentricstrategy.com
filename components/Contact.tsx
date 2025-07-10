@@ -49,13 +49,13 @@ export const Contact: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-charcoal dark:text-white mb-4">
-              {t('contact.title')}
+              {t('title')}
             </h2>
-            <p className="text-xl text-gold font-semibold mb-4">
-              {t('contact.subtitle')}
+            <p className="text-xl text-gold font-semibold mb-6">
+              {t('subtitle')}
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              {t('contact.description')}
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
+              {t('description')}
             </p>
           </div>
 
@@ -98,7 +98,7 @@ export const Contact: React.FC = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-charcoal dark:text-white mb-2">
-                    {t('contact.name')}
+                    {t('name')}
                   </label>
                   <input
                     type="text"
@@ -113,7 +113,7 @@ export const Contact: React.FC = () => {
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-charcoal dark:text-white mb-2">
-                    {t('contact.email')}
+                    {t('email')}
                   </label>
                   <input
                     type="email"
@@ -128,7 +128,7 @@ export const Contact: React.FC = () => {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-charcoal dark:text-white mb-2">
-                    {t('contact.message')}
+                    {t('message')}
                   </label>
                   <textarea
                     id="message"
@@ -143,13 +143,13 @@ export const Contact: React.FC = () => {
 
                 {status === 'success' && (
                   <div className="p-4 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 rounded-lg" aria-live="polite"> {/* Screen reader live region for success (British English comment) */}
-                    {t('contact.success')}
+                    {t('success')}
                   </div>
                 )}
 
                 {status === 'error' && (
                   <div className="p-4 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 rounded-lg" aria-live="polite"> {/* Screen reader live region for error (British English comment) */}
-                    {t('contact.error')}
+                    {t('error')}
                   </div>
                 )}
 
@@ -158,7 +158,7 @@ export const Contact: React.FC = () => {
                   disabled={status === 'loading'}
                   className="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed min-h-[48px] py-3 text-lg" /* Minimum height and padding for mobile touch targets (British English comment) */
                 >
-                  {status === 'loading' ? 'Sending...' : t('contact.submit')}
+                  {status === 'loading' ? 'Sending...' : t('submit')}
                 </button>
               </form>
             </div>

@@ -1,7 +1,5 @@
 {
-  "hero": {
-    "heading": "Expert HR Solutions Services",
-    "subtext": "We customize and deliver industry-leading HR functions.",
-    "cta": "Book My Demo"
-  }
+  "heading": "Expert HR Solutions Services",
+  "subtext": "We customize and deliver industry-leading HR functions.",
+  "cta": "Book My Demo"
 } 

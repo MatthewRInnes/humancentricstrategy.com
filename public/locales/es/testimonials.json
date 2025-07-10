@@ -1,26 +1,24 @@
 {
-  "testimonials": {
-    "title": "Lo Que Dicen Nuestros Clientes",
-    "subtitle": "Historias de Éxito",
-    "items": [
-      {
-        "quote": "Human Centric Strategy transformó completamente nuestros procesos de RRHH. Su experiencia y dedicación son inigualables.",
-        "author": "Sarah Johnson",
-        "position": "CEO, TechStart Inc.",
-        "company": "TechStart Inc."
-      },
-      {
-        "quote": "El equipo de Human Centric Strategy nos ayudó a construir un departamento de RRHH de clase mundial desde cero.",
-        "author": "Michael Chen",
-        "position": "Director de RRHH",
-        "company": "Global Solutions Ltd."
-      },
-      {
-        "quote": "Profesionales, responsivos y orientados a resultados. Se han convertido en una parte integral de nuestro éxito empresarial.",
-        "author": "Emily Rodriguez",
-        "position": "Gerente de Operaciones",
-        "company": "InnovateCorp"
-      }
-    ]
-  }
+  "title": "Lo Que Dicen Nuestros Clientes",
+  "subtitle": "Historias de Éxito",
+  "items": [
+    {
+      "quote": "Human Centric Strategy transformó completamente nuestros procesos de RRHH. Su experiencia y dedicación son inigualables.",
+      "author": "Sarah Johnson",
+      "position": "CEO, TechStart Inc.",
+      "company": "TechStart Inc."
+    },
+    {
+      "quote": "El equipo de Human Centric Strategy nos ayudó a construir un departamento de RRHH de clase mundial desde cero.",
+      "author": "Michael Chen",
+      "position": "Director de RRHH",
+      "company": "Global Solutions Ltd."
+    },
+    {
+      "quote": "Profesionales, responsivos y orientados a resultados. Se han convertido en una parte integral de nuestro éxito empresarial.",
+      "author": "Emily Rodriguez",
+      "position": "Gerente de Operaciones",
+      "company": "InnovateCorp"
+    }
+  ]
 } 

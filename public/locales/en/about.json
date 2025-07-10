@@ -1,21 +1,19 @@
 {
-  "about": {
-    "title": "About Us",
-    "subtitle": "Your Strategic HR Partner",
-    "content": "Human Centric Strategy delivers tailored HR solutions for modern organizations. We understand that every business is unique, and we customize our approach to meet your specific needs and challenges.",
-    "features": [
-      {
-        "title": "Strategic Approach",
-        "description": "We align HR strategies with your business objectives for maximum impact."
-      },
-      {
-        "title": "Expert Team",
-        "description": "Our certified HR professionals bring decades of industry experience."
-      },
-      {
-        "title": "Custom Solutions",
-        "description": "Tailored HR solutions that fit your company culture and goals."
-      }
-    ]
-  }
+  "title": "About Us",
+  "subtitle": "Your Strategic HR Partner",
+  "content": "Human Centric Strategy delivers tailored HR solutions for modern organizations. We understand that every business is unique, and we customize our approach to meet your specific needs and challenges.",
+  "features": [
+    {
+      "title": "Strategic Approach",
+      "description": "We align HR strategies with your business objectives for maximum impact."
+    },
+    {
+      "title": "Expert Team",
+      "description": "Our certified HR professionals bring decades of industry experience."
+    },
+    {
+      "title": "Custom Solutions",
+      "description": "Tailored HR solutions that fit your company culture and goals."
+    }
+  ]
 } 

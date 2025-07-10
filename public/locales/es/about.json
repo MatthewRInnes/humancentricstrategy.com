@@ -1,21 +1,19 @@
 {
-  "about": {
-    "title": "Sobre Nosotros",
-    "subtitle": "Su Socio Estratégico de RRHH",
-    "content": "Human Centric Strategy ofrece soluciones de RRHH personalizadas para organizaciones modernas. Entendemos que cada negocio es único, y personalizamos nuestro enfoque para satisfacer sus necesidades y desafíos específicos.",
-    "features": [
-      {
-        "title": "Enfoque Estratégico",
-        "description": "Alineamos las estrategias de RRHH con sus objetivos empresariales para un impacto máximo."
-      },
-      {
-        "title": "Equipo Experto",
-        "description": "Nuestros profesionales certificados de RRHH aportan décadas de experiencia en la industria."
-      },
-      {
-        "title": "Soluciones Personalizadas",
-        "description": "Soluciones de RRHH adaptadas que se ajustan a la cultura y objetivos de su empresa."
-      }
-    ]
-  }
+  "title": "Sobre Nosotros",
+  "subtitle": "Su Socio Estratégico de RRHH",
+  "content": "Human Centric Strategy ofrece soluciones de RRHH personalizadas para organizaciones modernas. Entendemos que cada negocio es único, y personalizamos nuestro enfoque para satisfacer sus necesidades y desafíos específicos.",
+  "features": [
+    {
+      "title": "Enfoque Estratégico",
+      "description": "Alineamos las estrategias de RRHH con sus objetivos empresariales para un impacto máximo."
+    },
+    {
+      "title": "Equipo Experto",
+      "description": "Nuestros profesionales certificados de RRHH aportan décadas de experiencia en la industria."
+    },
+    {
+      "title": "Soluciones Personalizadas",
+      "description": "Soluciones de RRHH adaptadas que se ajustan a la cultura y objetivos de su empresa."
+    }
+  ]
 } 
