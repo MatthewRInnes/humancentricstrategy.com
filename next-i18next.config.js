@@ -1,4 +1,5 @@
 // @ts-check
+const path = require('path'); // Required for absolute path resolution (British English comment)
 
 /** @type {import('next-i18next').UserConfig} */
 module.exports = {
@@ -6,7 +7,10 @@ module.exports = {
     defaultLocale: 'en',
     locales: ['en', 'es'],
   },
-  localePath: './public/locales',
+  // Use process.cwd() for absolute path on the server for Vercel/Next.js compatibility (British English comment)
+  localePath: typeof window === 'undefined'
+    ? path.join(process.cwd(), 'public', 'locales')
+    : '/locales',
   reloadOnPrerender: process.env.NODE_ENV === 'development',
   // Use common as the default namespace
   defaultNS: 'common',
