@@ -60,10 +60,12 @@ export const LanguageSwitcher: React.FC = () => {
               aria-selected={router.locale === lang.code ? 'true' : 'false'} // Use string for ARIA (British English comment)
               className={`px-4 py-2 cursor-pointer hover:bg-gold/10 dark:hover:bg-gold/20 ${router.locale === lang.code ? 'font-bold text-gold' : 'text-charcoal dark:text-white'} text-charcoal dark:text-white`}
               onClick={e => {
-                e.preventDefault(); // Prevent default link behaviour (British English comment)
+                e.preventDefault(); // Prevent default behaviour (British English comment)
                 setOpen(false);
                 if (lang.code !== router.locale) {
-                  router.replace(router.pathname, router.asPath, { locale: lang.code }); // Use replace for smoother navigation (British English comment)
+                  // Use router.push with pathname and query, and pass locale (British English comment)
+                  console.log('Switching language to', lang.code); // Debugging (British English comment)
+                  router.push({ pathname: router.pathname, query: router.query }, undefined, { locale: lang.code });
                 }
               }}
             >
