@@ -10,10 +10,7 @@ import Head from 'next/head'
 function App({ Component, pageProps }: AppProps) {
   return (
     <DarkModeProvider>
-      {/* Set lang attribute for accessibility (British English comment) */}
-      <Head>
-        <html lang="en" />
-      </Head>
+      {/* Removed <Head> as it is not needed without children (British English comment) */}
       {/* Skip to content link for keyboard users (British English comment) */}
       <a href="#main-content" className="skip-to-content-link">Skip to main content</a>
       <DefaultSeo
