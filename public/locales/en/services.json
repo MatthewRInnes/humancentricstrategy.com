@@ -1,0 +1,218 @@
+{
+  "services": {
+    "title": "Our Core Services",
+    "subtitle": "What we offer to help your business thrive.",
+    "onboarding": {
+      "title": "HR Onboarding",
+      "description": "Welcome new hires with a streamlined, consistent onboarding experience that boosts productivity from day one."
+    },
+    "sourcing": {
+      "title": "Talent Sourcing & Acquisition",
+      "description": "We use proven sourcing strategies and employer branding to attract top talent, ensuring the best fit for your organization's needs."
+    },
+    "policy": {
+      "title": "Policy Development",
+      "description": "Custom employee handbooks, disciplinary procedures, and policies tailored to your company culture and legal needs."
+    }
+  },
+  "pageTitle": "Our Services",
+  "pageIntro": "Delivering scalable, people-first HR solutions tailored to your organization's growth, compliance, and culture.",
+  "strategySection": {
+    "headline": "Strategic Excellence in HR",
+    "description": "We help organizations achieve sustainable growth through forward-thinking HR strategy and business alignment. Our approach combines vision, data, and people-centric leadership.",
+    "imageAlt": "Strategy concept illustration",
+    "cards": [
+      {
+        "title": "Strategic Foresight",
+        "text": "Anticipate future challenges and opportunities with proactive HR planning. We help you build agile strategies that adapt to market changes, workforce trends, and business goals.",
+        "extra": "Our team works closely with your leadership to identify emerging risks, develop contingency plans, and ensure your people strategy is always one step ahead. This forward-thinking approach helps you stay resilient and competitive in a rapidly changing business environment."
+      },
+      {
+        "title": "Data-Driven Decision Making",
+        "text": "Leverage analytics and evidence-based insights to inform your HR strategy. Our solutions empower you to make smarter decisions, optimise resources, and drive measurable results.",
+        "extra": "We implement advanced HR analytics tools and provide training so your team can interpret data effectively. This enables you to track key metrics, measure the impact of initiatives, and continuously improve your HR outcomes."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "title": "Payroll & Benefits Management",
+      "subtitle": "Streamlined payroll processes and comprehensive benefits administration.",
+      "items": [
+        { "title": "Payroll Management", "desc": "We streamline your payroll process using platforms like ADP — improving accuracy, cutting processing time by up to 30%, and ensuring full compliance with wage laws and reporting." },
+        { "title": "Benefits Administration", "desc": "Comprehensive benefits management including health insurance, retirement plans, and wellness programs with full compliance and cost optimization." },
+        { "title": "Payroll System Implementation", "desc": "End-to-end payroll system setup, data migration, and training to ensure smooth transitions and maximum efficiency." },
+        { "title": "Compliance & Reporting", "desc": "Ensure 100% compliance with wage laws, tax regulations, and reporting requirements across all jurisdictions." },
+        { "title": "Payroll Audits & Controls", "desc": "Comprehensive payroll audits to identify discrepancies, improve accuracy, and implement preventive controls." },
+        { "title": "Time & Attendance Systems", "desc": "Implement and optimize time tracking systems to improve accuracy and reduce administrative overhead." }
+      ]
+    },
+    {
+      "title": "Training & Development",
+      "subtitle": "Building workforce skills and driving performance through targeted learning programs.",
+      "items": [
+        { "title": "Training Program Design", "desc": "We design and deliver targeted training programs that build workforce skills and drive performance. Track progress and retention with measurable outcomes." },
+        { "title": "Leadership Development", "desc": "Comprehensive leadership training and development initiatives for current and emerging leaders at all levels." },
+        { "title": "Compliance Training", "desc": "Mandatory training programs for workplace safety, harassment prevention, and regulatory compliance." },
+        { "title": "Skills Assessment & Gap Analysis", "desc": "Identify skill gaps and develop targeted training programs to address specific organizational needs." },
+        { "title": "Learning Management Systems", "desc": "Implement and optimize LMS platforms to deliver, track, and measure training effectiveness." },
+        { "title": "Certification Programs", "desc": "Develop industry-specific certification programs to enhance employee qualifications and career progression." }
+      ]
+    },
+    {
+      "title": "HR Strategy & Business Alignment",
+      "subtitle": "Aligning people strategy with business objectives for sustainable growth.",
+      "items": [
+        { "title": "Strategic HR Planning", "desc": "Develop comprehensive HR strategies that directly support your business goals and organizational vision." },
+        { "title": "HR Strategy & Metrics", "desc": "Align your HR operations with business goals. We help you define key HR metrics, track them effectively, and drive strategic workforce planning." },
+        { "title": "Organizational Design", "desc": "Optimize your company structure, roles, and reporting relationships for maximum efficiency and effectiveness." },
+        { "title": "Workforce Planning", "desc": "Forecast future talent needs and develop strategies to build the right team at the right time." },
+        { "title": "HR Metrics & KPIs", "desc": "Establish meaningful HR metrics that demonstrate the value of people initiatives to business outcomes." },
+        { "title": "Business Partnership", "desc": "Act as strategic HR business partners, working closely with leadership to drive people-centered business decisions." }
+      ]
+    },
+    {
+      "title": "Employee Relations & Engagement",
+      "subtitle": "Building positive workplace relationships and resolving conflicts effectively.",
+      "items": [
+        { "title": "Employee Relations", "desc": "We resolve workplace conflict, reduce grievances, and build trust through clear communication, mediation, and proactive employee engagement strategies." },
+        { "title": "Conflict Resolution & Mediation", "desc": "Independent resolution services for grievances, disputes, and sensitive personnel issues with proven conflict resolution techniques." },
+        { "title": "Workplace Investigations", "desc": "Discreet, professional investigations into employee conduct or compliance concerns with detailed reporting and recommendations." },
+        { "title": "Employee Engagement Programs", "desc": "Pulse surveys, engagement tools, and culture workshops to build loyalty and job satisfaction." },
+        { "title": "Communication Strategies", "desc": "Develop effective communication frameworks to improve transparency, trust, and employee engagement." },
+        { "title": "Grievance Procedures", "desc": "Establish fair and transparent grievance procedures that protect both employees and the organization." }
+      ]
+    },
+    {
+      "title": "Compliance & Risk Management",
+      "subtitle": "Stay protected, up-to-date, and legally compliant across all jurisdictions.",
+      "items": [
+        { "title": "Compliance & Risk Mitigation", "desc": "Stay compliant with FLSA, ADA, ACA, ERISA, Equal Pay, Title VII and more. We help you avoid penalties and ensure 100% legal alignment in your HR policies." },
+        { "title": "Multi-State Compliance", "desc": "Navigate complex employment laws across multiple states and jurisdictions with confidence. Our experts keep you up-to-date with ever-changing regulations, ensuring your business remains compliant wherever you operate." },
+        { "title": "Compliance Audits", "desc": "Comprehensive audits to identify and address compliance gaps in your HR policies and practices. We provide detailed reports and practical recommendations to strengthen your organization's legal standing and reduce risk." },
+        { "title": "Policy Development & Review", "desc": "Develop and regularly review HR policies to ensure they remain compliant with changing regulations." },
+        { "title": "Risk Assessment & Management", "desc": "Identify and mitigate HR-related risks through proactive compliance monitoring and management." },
+        { "title": "Regulatory Training", "desc": "Deliver targeted training on employment law, workplace safety, and regulatory requirements." }
+      ]
+    },
+    {
+      "title": "Talent Acquisition & Employer Branding",
+      "subtitle": "Attract and retain top talent with strategic recruitment and strong employer branding.",
+      "items": [
+        { "title": "Talent Acquisition & Employer Branding", "desc": "Attract and retain top talent with a strong employer brand. From recruitment to onboarding, we reduce time-to-fill by 20% and boost retention." },
+        { "title": "Recruitment Strategy", "desc": "Develop comprehensive recruitment strategies that align with your business goals and employer brand." },
+        { "title": "Employer Brand Development", "desc": "Build a compelling employer brand that attracts the right candidates and differentiates your organization." },
+        { "title": "Candidate Experience", "desc": "Design seamless candidate experiences that enhance your employer brand and improve offer acceptance rates." },
+        { "title": "Recruitment Process Optimization", "desc": "Streamline recruitment processes to reduce time-to-fill and improve candidate quality." },
+        { "title": "Diversity & Inclusion Recruitment", "desc": "Develop inclusive recruitment strategies that build diverse, high-performing teams." }
+      ]
+    },
+    {
+      "title": "Organizational Development",
+      "subtitle": "Building high-performing teams and enhancing organizational effectiveness.",
+      "items": [
+        { "title": "Organizational Development", "desc": "From change management to leadership development, we help you build high-performing teams, enhance engagement, and improve productivity by up to 20%." },
+        { "title": "Change Management Planning", "desc": "Develop comprehensive change management strategies for mergers, acquisitions, restructures, and digital transformations." },
+        { "title": "Stakeholder Engagement", "desc": "Build buy-in and support across all levels of the organization through effective communication and engagement strategies." },
+        { "title": "Team Building & Development", "desc": "Design and facilitate team building programs that improve collaboration, communication, and performance." },
+        { "title": "Culture Transformation", "desc": "Guide organizations through cultural change initiatives that align with business objectives and values." },
+        { "title": "Organizational Effectiveness", "desc": "Assess and improve organizational effectiveness through structure, process, and capability development." }
+      ]
+    },
+    {
+      "title": "Performance Management",
+      "subtitle": "Implement systems that track performance and link it directly to business outcomes.",
+      "items": [
+        { "title": "Performance Management", "desc": "Implement systems that track employee performance and link it directly to business outcomes. We create a culture of continuous feedback and improvement." },
+        { "title": "Performance Management Systems", "desc": "Develop goal-oriented performance management frameworks that drive individual and organizational success." },
+        { "title": "Goal Setting & Alignment", "desc": "Establish clear, measurable goals that align individual performance with organizational objectives." },
+        { "title": "Feedback & Coaching", "desc": "Implement continuous feedback systems and coaching programs that drive performance improvement." },
+        { "title": "Performance Analytics", "desc": "Develop performance analytics and reporting systems to track progress and identify improvement opportunities." },
+        { "title": "Recognition & Rewards", "desc": "Design recognition and reward programs that motivate high performance and reinforce desired behaviors." }
+      ]
+    },
+    {
+      "title": "HR Technology & HRIS Systems",
+      "subtitle": "Expert implementation and optimization of HR technology solutions.",
+      "items": [
+        { "title": "HR Technology (HRIS) Consulting", "desc": "Choose and optimize your HRIS tools. We guide you through setup, data migration, and usage to streamline HR functions and improve decision-making." },
+        { "title": "HRIS Implementation", "desc": "End-to-end implementation of HR systems including Oracle HCM, ADP Workforce Now, and isolved People Cloud." },
+        { "title": "System Selection & Evaluation", "desc": "Help you choose the right HR technology platform based on your specific needs and budget." },
+        { "title": "Data Migration & Integration", "desc": "Seamless migration of HR data and integration with existing business systems and processes." },
+        { "title": "User Training & Adoption", "desc": "Comprehensive training programs to ensure successful system adoption across your organization." },
+        { "title": "System Optimization", "desc": "Optimize existing HR systems to improve efficiency, user experience, and return on investment." }
+      ]
+    },
+    {
+      "title": "Leadership Coaching & Workforce Planning",
+      "subtitle": "Developing leaders and planning for future talent needs.",
+      "items": [
+        { "title": "Executive Coaching", "desc": "One-to-one coaching for senior leaders to enhance leadership effectiveness and decision-making capabilities." },
+        { "title": "Leadership Development Programs", "desc": "Comprehensive leadership training and development initiatives for current and emerging leaders." },
+        { "title": "Succession Planning", "desc": "Identify and develop high-potential employees to ensure seamless leadership transitions and continuity." },
+        { "title": "Talent Pipeline Development", "desc": "Build robust talent pipelines to ensure you have the right people ready for key roles when needed." },
+        { "title": "Performance Coaching", "desc": "Support managers in developing their teams through effective coaching and feedback techniques." },
+        { "title": "Strategic Workforce Planning", "desc": "Long-term planning to ensure your workforce has the skills and capabilities needed for future business success." }
+      ]
+    },
+    {
+      "title": "Total Rewards & Compensation",
+      "subtitle": "Comprehensive compensation, benefits, and performance systems that drive results.",
+      "items": [
+        { "title": "Compensation Strategy", "desc": "Design competitive compensation structures that align with business objectives and market conditions." },
+        { "title": "Benefits Program Design", "desc": "Create attractive benefits packages that support employee well-being and work-life balance." },
+        { "title": "Incentive Program Design", "desc": "Design bonus, commission, and incentive programs that motivate and reward high performance." },
+        { "title": "Job Evaluation & Grading", "desc": "Establish fair and consistent job evaluation systems to ensure internal equity and external competitiveness." },
+        { "title": "Recognition Programs", "desc": "Implement formal and informal recognition programs that celebrate achievements and boost morale." },
+        { "title": "Compensation Benchmarking", "desc": "Conduct market research and benchmarking to ensure competitive compensation packages." }
+      ]
+    },
+    {
+      "title": "Core HR Services",
+      "subtitle": "Foundational HR support for growing businesses.",
+      "items": [
+        { "title": "HR Onboarding", "desc": "Welcome new hires with a streamlined, consistent onboarding experience that boosts productivity from day one." },
+        { "title": "Policy Development", "desc": "Custom employee handbooks, disciplinary procedures, and policies tailored to your company culture and legal needs." },
+        { "title": "Employee Handbooks", "desc": "Clear, engaging, and legally compliant handbooks to guide your team and define workplace expectations." },
+        { "title": "HR Audits", "desc": "In-depth assessments of your current HR structure, policies, and processes with actionable insights for improvement." },
+        { "title": "HR Data & Analytics", "desc": "Transform your HR decision-making with actionable insights from workforce data and analytics." },
+        { "title": "HR Process Documentation", "desc": "Document and standardize HR processes to ensure consistency and compliance across your organization." }
+      ]
+    },
+    {
+      "title": "Interim & Fractional HR Support",
+      "subtitle": "Flexible HR leadership when and where you need it.",
+      "items": [
+        { "title": "Interim HR Directors / Managers", "desc": "Temporary senior HR support for projects, transitions, or leadership gaps." },
+        { "title": "Fractional HR Services", "desc": "Scalable, part-time HR support for startups and SMEs without internal HR departments." },
+        { "title": "Project-Based HR Support", "desc": "Expert HR assistance for specific projects, such as mergers, acquisitions, or organizational change." }
+      ]
+    }
+  ],
+  "addons": {
+    "title": "Service Add-ons",
+    "items": [
+      "Custom HR Software Implementation",
+      "Payroll Setup and Advisory",
+      "Job Description Creation",
+      "Exit Interview Analysis",
+      "HR Reporting Dashboards",
+      "Employee Survey Design & Analysis",
+      "HR Process Documentation",
+      "Vendor Selection & Management",
+      "HR Budget Planning & Management",
+      "Employee Relations Support",
+      "Background Check Coordination",
+      "Employee Handbook Translation",
+      "HR Technology Training",
+      "Compliance Calendar Management",
+      "Workplace Safety Audits"
+    ]
+  },
+  "cta": {
+    "title": "Ready to transform your HR?",
+    "desc": "Speak to a consultant today to explore how we can support your people strategy.",
+    "button": "Book My Demo",
+    "consultantButton": "Talk to a Consultant"
+  }
+} 

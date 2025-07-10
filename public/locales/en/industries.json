@@ -1,0 +1,45 @@
+{
+  "industries": [
+    {
+      "title": "Technology",
+      "description": "We help tech companies attract top talent, foster innovation, and manage rapid growth in a highly competitive market."
+    },
+    {
+      "title": "Healthcare",
+      "description": "We support healthcare organizations in navigating complex regulations, improving staff retention, and ensuring patient-centered care."
+    },
+    {
+      "title": "Education",
+      "description": "We assist educational institutions in building strong teams, enhancing staff development, and adapting to changing learning environments."
+    },
+    {
+      "title": "Retail",
+      "description": "We enable retailers to optimize workforce management, boost customer service, and adapt to seasonal demands."
+    },
+    {
+      "title": "Finance",
+      "description": "We guide financial firms in compliance, risk management, and building high-performing, trustworthy teams."
+    },
+    {
+      "title": "Manufacturing",
+      "description": "We help manufacturers streamline HR processes, improve safety, and manage a diverse workforce across multiple sites."
+    }
+  ],
+  "sectionTitle": "Industries We Serve",
+  "sectionSubtitle": "Versatility and specialization across key sectors.",
+  "painPointsSection": {
+    "headline": "Struggling With These Challenges?",
+    "description": "We help organizations overcome common HR obstacles that hinder growth and performance.",
+    "imageAlt": "Confused person representing HR challenges",
+    "cards": [
+      {
+        "title": "High Staff Turnover",
+        "text": "Frequent departures disrupt your team and increase recruitment costs. We help you build a culture that retains top talent. Our approach includes tailored retention strategies, leadership coaching, and employee engagement programs to ensure your best people stay and thrive."
+      },
+      {
+        "title": "Confusing Compliance Requirements",
+        "text": "Navigating complex regulations can be overwhelming. We simplify compliance so you can focus on your business. Our experts keep you up to date with the latest legal changes, provide clear guidance, and implement robust processes to protect your organization from costly mistakes."
+      }
+    ]
+  }
+} 

@@ -1,0 +1,27 @@
+{
+  "solutions": {
+    "title": "Nuestras Soluciones",
+    "subtitle": "Soluciones Integrales de RRHH"
+  },
+  "caseStudy": {
+    "title": "Estudio de Caso",
+    "subtitle": "¿Cómo aumentar el compromiso de los empleados?",
+    "left": {
+      "label": "Antes",
+      "stat1": "42%",
+      "desc1": "Tasa de compromiso de los empleados antes de implementar nuestras soluciones.",
+      "stat2": "55%",
+      "desc2": "Satisfacción de los gerentes antes de nuestra intervención."
+    },
+    "right": {
+      "label": "Después",
+      "stat1": "78%",
+      "desc1": "Tasa de compromiso de los empleados después de nuestra estrategia de RRHH personalizada.",
+      "stat2": "85%",
+      "desc2": "Satisfacción de los gerentes después de nuestra intervención."
+    },
+    "center": {
+      "desc": "Al asociarse con Human Centric Strategy, nuestro cliente experimentó una mejora notable tanto en el compromiso de los empleados como en la satisfacción de la gerencia. Nuestras soluciones de RRHH a medida fomentaron una cultura de colaboración, innovación y bienestar, impulsando resultados empresariales medibles."
+    }
+  }
+} 

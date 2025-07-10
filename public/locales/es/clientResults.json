@@ -1,0 +1,46 @@
+{
+  "sectionTitle": "Resultados y Logros Comprobados",
+  "sectionSubtitle": "Resultados reales entregados para organizaciones en crecimiento",
+  "results": [
+    {
+      "metric": "20%",
+      "title": "Mejora de Retención de Empleados",
+      "desc": "Aumentó la retención de empleados en un 20% mediante estrategias de personas alineadas con los objetivos organizacionales.",
+      "label": "Incremento de Retención"
+    },
+    {
+      "metric": "15%",
+      "title": "Adquisición y Retención de Talento",
+      "desc": "Redujo la rotación en un 15% liderando iniciativas integrales de adquisición y retención de talento.",
+      "label": "Reducción de Rotación"
+    },
+    {
+      "metric": "15%",
+      "title": "Optimización del Sistema de Nómina",
+      "desc": "Redujo el tiempo de procesamiento de nómina en un 15% y mejoró la precisión en un 20% mediante automatización y mejoras de procesos.",
+      "label": "Ahorro de Tiempo"
+    },
+    {
+      "metric": "25%",
+      "title": "Bienestar y Reconocimiento de Empleados",
+      "desc": "Aumentó la satisfacción de los empleados en un 25% desarrollando y lanzando programas de bienestar y reconocimiento.",
+      "label": "Aumento de Satisfacción"
+    },
+    {
+      "metric": "20%",
+      "title": "Cumplimiento y Controles de Nómina",
+      "desc": "Disminuyó los errores relacionados con nómina en un 20% implementando controles de auditoría y medidas de cumplimiento.",
+      "label": "Reducción de Errores"
+    },
+    {
+      "metric": "100%",
+      "title": "Planificación y Reestructuración de la Fuerza Laboral",
+      "desc": "Aseguró una alineación del 100% de los roles durante la reestructuración dirigiendo la planificación y gestión del desempeño.",
+      "label": "Alineación de Roles"
+    }
+  ],
+  "ctaTitle": "¿Listo para lograr resultados similares?",
+  "ctaDesc": "Hablemos de cómo podemos ayudar a su organización a mejorar la retención, optimizar procesos y aumentar la satisfacción de los empleados.",
+  "ctaButton": "Reserve su consulta",
+  "learnMore": "Saber más"
+} 

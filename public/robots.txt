@@ -1,0 +1,7 @@
+# robots.txt for Human Centric Strategy
+# Allow all search engines to crawl the site (British English comment)
+User-agent: *
+Disallow: /api/
+
+# Sitemap location (British English comment)
+Sitemap: https://humancentricstrategy.com/sitemap.xml 

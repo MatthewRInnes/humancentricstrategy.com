@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "6 Steps of Problem Solving",
+  "sectionSubtitle": "A proven, outcome-focused process for business challenges",
+  "steps": [
+    {
+      "title": "Define the problem",
+      "desc": "Pinpoint the problem statement and clarify what needs to be solved."
+    },
+    {
+      "title": "Identify root cause of problem",
+      "desc": "Investigate the root causes and underlying issues."
+    },
+    {
+      "title": "Develop alternative solutions",
+      "desc": "Create multiple solutions and consider different approaches."
+    },
+    {
+      "title": "Select solution",
+      "desc": "Choose the most effective solution for the problem."
+    },
+    {
+      "title": "Implement the solution",
+      "desc": "Plan and implement the chosen solution."
+    },
+    {
+      "title": "Evaluate the outcome",
+      "desc": "Determine if the root cause is eliminated and measure results."
+    }
+  ]
+} 

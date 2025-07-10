@@ -1,0 +1,27 @@
+{
+  "sectionTitle": "Our Impact",
+  "sectionSubtitle": "Real results for real clients across industries.",
+  "challengeHeading": "The Challenge",
+  "solutionHeading": "Our Solution",
+  "resultsHeading": "Results",
+  "stories": [
+    {
+      "industry": "Technology",
+      "challenge": "High employee turnover in a fast-growing software company.",
+      "solution": "Implemented a structured onboarding program and leadership training.",
+      "results": "Attrition dropped by 35% and employee satisfaction scores rose by 22%."
+    },
+    {
+      "industry": "Healthcare",
+      "challenge": "Difficulty attracting qualified nurses to a regional hospital.",
+      "solution": "Developed a targeted recruitment campaign and improved benefits package.",
+      "results": "Vacancy rate reduced by 50% and time-to-hire cut in half."
+    },
+    {
+      "industry": "Retail",
+      "challenge": "Low customer service ratings and high seasonal staff turnover.",
+      "solution": "Introduced customer service training and flexible scheduling.",
+      "results": "Customer satisfaction increased by 18% and seasonal retention improved by 40%."
+    }
+  ]
+} 

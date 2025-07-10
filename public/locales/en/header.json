@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "services": "Services",
+    "blog": "Blog",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "language": {
+    "en": "US",
+    "es": "Español"
+  }
+} 

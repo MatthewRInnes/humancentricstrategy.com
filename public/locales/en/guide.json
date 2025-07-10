@@ -1,0 +1,117 @@
+{
+  "metaTitle": "Guide Page | Human Centric Strategy",
+  "heading": "Your Global HR Consulting Guide",
+  "intro": "Discover how our consulting process works, where we serve clients worldwide, and what to expect when you contact us.",
+  "map": {
+    "heading": "Our Global Reach",
+    "caption": "We support clients in North America, South America, Europe, Africa, Asia, the Middle East, and Australia."
+  },
+  "stepsHeading": "How Our Consulting Process Works",
+  "steps": [
+    { "title": "Initial Contact", "desc": "Submit your enquiry using the form below or contact us directly. We respond within 24 hours to arrange a discovery call." },
+    { "title": "Discovery & Needs Analysis", "desc": "We hold a video or phone call to understand your business, challenges, and goals. We may request relevant documents or data." },
+    { "title": "Proposal & Agreement", "desc": "We send a tailored proposal outlining our approach, deliverables, timeline, and pricing. Once agreed, we sign a service agreement." },
+    { "title": "Project Kickoff", "desc": "We launch the project with a kickoff meeting, set milestones, and establish communication channels." },
+    { "title": "Delivery & Support", "desc": "We deliver agreed outcomes, provide training or documentation, and offer ongoing support as needed." }
+  ],
+  "timelineHeading": "Consulting Timeline Overview",
+  "timeline": ["Contact", "Discovery", "Proposal", "Kickoff", "Delivery"],
+  "expectHeading": "What to Expect When You Contact Us",
+  "expectations": [
+    "Prompt, friendly response from our team within 24 hours.",
+    "Clear communication about next steps and what we need from you.",
+    "Confidentiality and professionalism at every stage.",
+    "Personalized solutions tailored to your business needs.",
+    "Ongoing support and advice, even after project delivery."
+  ],
+  "tools": {
+    "heading": "Tools & Frameworks We Use",
+    "intro": "We use a range of proven business tools and frameworks to help you achieve your goals:",
+    "list": [
+      { "name": "SWOT Analysis", "desc": "Identify your business strengths, weaknesses, opportunities, and threats." },
+      { "name": "Business Model Canvas", "desc": "Visualize and design your business model for clarity and innovation." },
+      { "name": "OKR (Objectives & Key Results)", "desc": "Set and track ambitious goals with measurable outcomes." },
+      { "name": "KPI (Key Performance Indicators)", "desc": "Monitor your business performance with clear, actionable metrics." },
+      { "name": "PESTLE Analysis", "desc": "Assess external factors impacting your business environment." },
+      { "name": "Balanced Scorecard", "desc": "Align business activities to the vision and strategy of your organization." }
+    ]
+  },
+  "pricing": {
+    "heading": "Our Pricing Plans",
+    "intro": "Choose the plan that fits your organisation. All prices are per month, excluding VAT.",
+    "from": "From",
+    "cards": [
+      {
+        "title": "Starter",
+        "basePriceGBP": 99,
+        "basePriceUSD": 129,
+        "basePriceEUR": 119,
+        "features": [
+          "Up to 10 employees",
+          "Basic HR support",
+          "Email support included"
+        ],
+        "cta": "Get Started",
+        "extra": "Perfect for small teams",
+        "details": "Billed monthly. Cancel anytime."
+      },
+      {
+        "title": "Growth",
+        "basePriceGBP": 199,
+        "basePriceUSD": 249,
+        "basePriceEUR": 229,
+        "features": [
+          "Up to 50 employees",
+          "Advanced HR support",
+          "Phone & email support",
+          "Compliance monitoring"
+        ],
+        "cta": "Choose Growth",
+        "extra": "Best for growing businesses",
+        "details": "Billed monthly. Cancel anytime."
+      },
+      {
+        "title": "Enterprise",
+        "basePriceGBP": null,
+        "basePriceUSD": null,
+        "basePriceEUR": null,
+        "features": [
+          "Unlimited employees",
+          "Dedicated HR consultant",
+          "Bespoke solutions",
+          "Priority support"
+        ],
+        "cta": "Contact Us",
+        "extra": "Tailored for large or complex organisations",
+        "details": "Contact us for a custom quote."
+      }
+    ],
+    "customPrice": "Custom pricing"
+  },
+  "calculator": {
+    "heading": "Estimate Your Monthly Cost",
+    "intro": "Use the calculator below to estimate your monthly fee based on your team size.",
+    "labelEmployees": "Number of employees",
+    "labelCurrency": "Currency",
+    "currencies": ["£", "$", "€"],
+    "button": "Calculate",
+    "result": "Estimated monthly cost: {{cost}}",
+    "rates": {
+      "GBPtoUSD": 1.3,
+      "GBPtoEUR": 1.2
+    }
+  },
+  "hero": {
+    "imageAlt": "Consulting team working together",
+    "cta": "Get in Touch",
+    "ctaWriting": "Ready to transform your HR?",
+    "sideWriting": "We partner with organizations to deliver tailored HR solutions, drive business growth, and support your people every step of the way."
+  },
+  "form": {
+    "heading": "Contact Us",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "button": "Send Message"
+  }
+} 

@@ -1,0 +1,54 @@
+{
+  "sectionTitle": "Future-Focused HR Innovations",
+  "sectionSubtitle": "Pioneering strategies for tomorrow's workplace",
+  "results": [
+    {
+      "title": "Future of Work & Hybrid Workforce",
+      "desc": "Guiding organizations to thrive in hybrid and remote environments with flexible policies and digital-first cultures.",
+      "label": "Hybrid Success"
+    },
+    {
+      "title": "HR Data Analytics & Predictive Insights",
+      "desc": "Leveraging advanced analytics to predict workforce trends, improve decision-making, and drive business outcomes.",
+      "label": "Data-Driven HR"
+    },
+    {
+      "title": "Employee Financial Wellbeing",
+      "desc": "Implementing financial wellness programs that support employees' long-term security and reduce workplace stress.",
+      "label": "Financial Wellness"
+    },
+    {
+      "title": "AI & Automation in HR",
+      "desc": "Transforming HR operations with artificial intelligence and automation for greater efficiency and accuracy.",
+      "label": "Smart Automation"
+    },
+    {
+      "title": "Sustainable HR & Green Workplaces",
+      "desc": "Promoting eco-friendly HR practices and building sustainable, responsible workplaces for the future.",
+      "label": "Sustainability"
+    },
+    {
+      "title": "Neurodiversity & Inclusive Hiring",
+      "desc": "Championing neurodiversity and inclusive recruitment to unlock the full potential of every individual.",
+      "label": "Inclusive Growth"
+    },
+    {
+      "title": "Remote Leadership & Digital Collaboration",
+      "desc": "Empowering leaders to inspire, manage, and collaborate effectively in fully remote or distributed teams.",
+      "label": "Remote Leadership"
+    },
+    {
+      "title": "Personalized Employee Experience",
+      "desc": "Utilizing technology and data to tailor HR services, benefits, and communications to individual employee needs and preferences.",
+      "label": "Personal Touch"
+    },
+    {
+      "title": "Global Talent Mobility",
+      "desc": "Enabling seamless movement of talent across borders with digital tools, compliance support, and cultural integration programs.",
+      "label": "Global Mobility"
+    }
+  ],
+  "ctaTitle": "Ready to embrace the future of HR?",
+  "ctaDesc": "Discover how our innovative strategies can future-proof your organization and empower your people.",
+  "ctaButton": "Start Your Transformation"
+} 

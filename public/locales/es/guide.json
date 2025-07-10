@@ -1,0 +1,117 @@
+{
+  "metaTitle": "Página de Guía | Human Centric Strategy",
+  "heading": "Su Guía Global de Consultoría de RRHH",
+  "intro": "Descubra cómo funciona nuestro proceso de consultoría, dónde atendemos a clientes en todo el mundo y qué esperar cuando se ponga en contacto con nosotros.",
+  "map": {
+    "heading": "Nuestro Alcance Global",
+    "caption": "Atendemos clientes en Norteamérica, Sudamérica, Europa, África, Asia, Oriente Medio y Australia."
+  },
+  "stepsHeading": "Cómo Funciona Nuestro Proceso de Consultoría",
+  "steps": [
+    { "title": "Contacto Inicial", "desc": "Envíe su consulta utilizando el formulario a continuación o contáctenos directamente. Respondemos en 24 horas para concertar una llamada de descubrimiento." },
+    { "title": "Descubrimiento y Análisis de Necesidades", "desc": "Realizamos una videollamada o llamada telefónica para comprender su negocio, desafíos y objetivos. Podemos solicitar documentos o datos relevantes." },
+    { "title": "Propuesta y Acuerdo", "desc": "Enviamos una propuesta personalizada que describe nuestro enfoque, entregables, cronograma y precios. Una vez acordado, firmamos un acuerdo de servicios." },
+    { "title": "Inicio del Proyecto", "desc": "Lanzamos el proyecto con una reunión inicial, establecemos hitos y canales de comunicación." },
+    { "title": "Entrega y Soporte", "desc": "Entregamos los resultados acordados, proporcionamos formación o documentación y ofrecemos soporte continuo según sea necesario." }
+  ],
+  "timelineHeading": "Resumen de la Línea de Tiempo de Consultoría",
+  "timeline": ["Contacto", "Descubrimiento", "Propuesta", "Inicio", "Entrega"],
+  "expectHeading": "Qué Esperar Cuando Nos Contacte",
+  "expectations": [
+    "Respuesta rápida y amable de nuestro equipo en 24 horas.",
+    "Comunicación clara sobre los próximos pasos y lo que necesitamos de usted.",
+    "Confidencialidad y profesionalismo en cada etapa.",
+    "Soluciones personalizadas adaptadas a las necesidades de su empresa.",
+    "Soporte y asesoramiento continuo, incluso después de la entrega del proyecto."
+  ],
+  "tools": {
+    "heading": "Herramientas y Marcos que Utilizamos",
+    "intro": "Utilizamos una variedad de herramientas y marcos empresariales probados para ayudarle a alcanzar sus objetivos:",
+    "list": [
+      { "name": "Análisis FODA", "desc": "Identifique las fortalezas, debilidades, oportunidades y amenazas de su empresa." },
+      { "name": "Business Model Canvas", "desc": "Visualice y diseñe su modelo de negocio para mayor claridad e innovación." },
+      { "name": "OKR (Objetivos y Resultados Clave)", "desc": "Establezca y supervise objetivos ambiciosos con resultados medibles." },
+      { "name": "KPI (Indicadores Clave de Desempeño)", "desc": "Controle el rendimiento de su empresa con métricas claras y accionables." },
+      { "name": "Análisis PESTEL", "desc": "Evalúe los factores externos que afectan el entorno de su empresa." },
+      { "name": "Balanced Scorecard", "desc": "Alinee las actividades empresariales con la visión y estrategia de su organización." }
+    ]
+  },
+  "pricing": {
+    "heading": "Nuestros Planes de Precios",
+    "intro": "Elija el plan que se adapte a su organización. Todos los precios son por mes, sin IVA.",
+    "from": "Desde",
+    "cards": [
+      {
+        "title": "Inicial",
+        "basePriceGBP": 99,
+        "basePriceUSD": 129,
+        "basePriceEUR": 119,
+        "features": [
+          "Hasta 10 empleados",
+          "Soporte básico de RRHH",
+          "Soporte por correo electrónico incluido"
+        ],
+        "cta": "Comenzar",
+        "extra": "Perfecto para equipos pequeños",
+        "details": "Facturación mensual. Cancela en cualquier momento."
+      },
+      {
+        "title": "Crecimiento",
+        "basePriceGBP": 199,
+        "basePriceUSD": 249,
+        "basePriceEUR": 229,
+        "features": [
+          "Hasta 50 empleados",
+          "Soporte avanzado de RRHH",
+          "Soporte telefónico y por correo electrónico",
+          "Supervisión de cumplimiento"
+        ],
+        "cta": "Elegir Crecimiento",
+        "extra": "Ideal para empresas en expansión",
+        "details": "Facturación mensual. Cancela en cualquier momento."
+      },
+      {
+        "title": "Empresarial",
+        "basePriceGBP": null,
+        "basePriceUSD": null,
+        "basePriceEUR": null,
+        "features": [
+          "Empleados ilimitados",
+          "Consultor de RRHH dedicado",
+          "Soluciones a medida",
+          "Soporte prioritario"
+        ],
+        "cta": "Contáctanos",
+        "extra": "Diseñado para organizaciones grandes o complejas",
+        "details": "Contáctanos para una cotización personalizada."
+      }
+    ],
+    "customPrice": "Precio personalizado"
+  },
+  "calculator": {
+    "heading": "Calcule su coste mensual",
+    "intro": "Utilice la calculadora para estimar su tarifa mensual según el tamaño de su equipo.",
+    "labelEmployees": "Número de empleados",
+    "labelCurrency": "Moneda",
+    "currencies": ["€", "$", "£"],
+    "button": "Calcular",
+    "result": "Coste mensual estimado: {{cost}}",
+    "rates": {
+      "GBPtoUSD": 1.3,
+      "GBPtoEUR": 1.2
+    }
+  },
+  "form": {
+    "heading": "Contáctenos",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "message": "Su Mensaje",
+    "button": "Enviar Mensaje"
+  },
+  "hero": {
+    "imageAlt": "Equipo de consultoría trabajando en conjunto",
+    "cta": "Contactar",
+    "ctaWriting": "¿Listo para transformar sus RRHH?",
+    "sideWriting": "Colaboramos con organizaciones para ofrecer soluciones de RRHH personalizadas, impulsar el crecimiento empresarial y apoyar a su equipo en cada paso."
+  }
+} 

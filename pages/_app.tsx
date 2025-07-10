@@ -1,0 +1,40 @@
+import type { AppProps } from 'next/app'
+import { appWithTranslation } from 'next-i18next'
+import { DarkModeProvider } from '../contexts/DarkModeContext'
+import { DefaultSeo } from 'next-seo'
+import '../styles/globals.css'
+import Head from 'next/head'
+
+function App({ Component, pageProps }: AppProps) {
+  return (
+    <DarkModeProvider>
+      {/* Set lang attribute for accessibility (British English comment) */}
+      <Head>
+        <html lang="en" />
+      </Head>
+      {/* Skip to content link for keyboard users (British English comment) */}
+      <a href="#main-content" className="skip-to-content-link">Skip to main content</a>
+      <DefaultSeo
+        title="Human Centric Strategy - Expert HR Solutions"
+        description="We customize and deliver industry-leading HR functions for modern organizations."
+        openGraph={{
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://humancentricstrategy.com',
+          siteName: 'Human Centric Strategy',
+          title: 'Human Centric Strategy - Expert HR Solutions',
+          description: 'We customize and deliver industry-leading HR functions for modern organizations.',
+        }}
+        additionalMetaTags={[
+          {
+            name: 'viewport',
+            content: 'width=device-width, initial-scale=1',
+          },
+        ]}
+      />
+      <Component {...pageProps} />
+    </DarkModeProvider>
+  )
+}
+
+export default appWithTranslation(App) 

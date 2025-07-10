@@ -1,0 +1,16 @@
+{
+  "faqs": [
+    {"question": "What is HR consulting?", "answer": "HR consulting involves providing expert advice to organizations on human resources strategies, policies, and best practices."},
+    {"question": "Why do companies hire HR consultants?", "answer": "Companies hire HR consultants to improve their HR processes, ensure legal compliance, and enhance employee satisfaction and productivity."},
+    {"question": "What services do HR consultants offer?", "answer": "Services include recruitment, training, performance management, policy development, and employee relations."},
+    {"question": "How can HR consulting benefit my business?", "answer": "HR consulting can help streamline HR operations, reduce costs, and create a positive workplace culture."},
+    {"question": "Do HR consultants help with legal compliance?", "answer": "Yes, HR consultants ensure your business complies with employment laws and regulations."},
+    {"question": "Can HR consultants assist with recruitment?", "answer": "Absolutely, they can help attract, select, and retain top talent for your organization."},
+    {"question": "What size companies benefit from HR consulting?", "answer": "Businesses of all sizes, from start-ups to large enterprises, can benefit from HR consulting services."},
+    {"question": "How do I choose the right HR consultant?", "answer": "Look for consultants with relevant experience, strong references, and a good understanding of your industry."},
+    {"question": "Is HR consulting confidential?", "answer": "Yes, professional HR consultants maintain strict confidentiality with all client information."},
+    {"question": "How are HR consulting fees structured?", "answer": "Fees may be hourly, project-based, or retainer, depending on the scope and duration of the engagement."}
+  ],
+  "heading": "Frequently Asked Questions",
+  "subheading": "Answers to common questions about our HR consultancy services."
+} 

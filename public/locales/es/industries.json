@@ -1,0 +1,45 @@
+{
+  "industries": [
+    {
+      "title": "Tecnología",
+      "description": "Ayudamos a las empresas tecnológicas a atraer talento, fomentar la innovación y gestionar el rápido crecimiento en un mercado altamente competitivo."
+    },
+    {
+      "title": "Sanidad",
+      "description": "Apoyamos a las organizaciones sanitarias en la navegación de normativas complejas, mejorando la retención del personal y garantizando una atención centrada en el paciente."
+    },
+    {
+      "title": "Educación",
+      "description": "Asistimos a instituciones educativas en la formación de equipos sólidos, el desarrollo del personal y la adaptación a entornos de aprendizaje cambiantes."
+    },
+    {
+      "title": "Comercio Minorista",
+      "description": "Ayudamos a los minoristas a optimizar la gestión de la plantilla, mejorar el servicio al cliente y adaptarse a la demanda estacional."
+    },
+    {
+      "title": "Finanzas",
+      "description": "Guiamos a las empresas financieras en el cumplimiento normativo, la gestión de riesgos y la creación de equipos de alto rendimiento y confianza."
+    },
+    {
+      "title": "Manufactura",
+      "description": "Ayudamos a los fabricantes a optimizar los procesos de RRHH, mejorar la seguridad y gestionar una plantilla diversa en múltiples ubicaciones."
+    }
+  ],
+  "sectionTitle": "Sectores que Atendemos",
+  "sectionSubtitle": "Versatilidad y especialización en sectores clave.",
+  "painPointsSection": {
+    "headline": "¿Luchando con estos desafíos?",
+    "description": "Ayudamos a las organizaciones a superar los obstáculos comunes de RRHH que dificultan el crecimiento y el rendimiento.",
+    "imageAlt": "Persona confundida que representa los desafíos de RRHH",
+    "cards": [
+      {
+        "title": "Alta rotación de personal",
+        "text": "Las salidas frecuentes interrumpen su equipo y aumentan los costes de contratación. Le ayudamos a crear una cultura que retenga el mejor talento. Nuestro enfoque incluye estrategias de retención personalizadas, formación de liderazgo y programas de compromiso para que sus mejores empleados se queden y prosperen."
+      },
+      {
+        "title": "Requisitos de cumplimiento confusos",
+        "text": "Navegar por normativas complejas puede ser abrumador. Simplificamos el cumplimiento para que pueda centrarse en su negocio. Nuestros expertos le mantienen al día con los últimos cambios legales, ofrecen orientación clara e implementan procesos sólidos para proteger su organización de errores costosos."
+      }
+    ]
+  }
+} 

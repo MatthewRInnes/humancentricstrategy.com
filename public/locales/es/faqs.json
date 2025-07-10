@@ -1,0 +1,16 @@
+{
+  "faqs": [
+    {"question": "¿Qué es la consultoría de RRHH?", "answer": "La consultoría de RRHH consiste en ofrecer asesoramiento experto a las organizaciones sobre estrategias, políticas y mejores prácticas de recursos humanos."},
+    {"question": "¿Por qué las empresas contratan consultores de RRHH?", "answer": "Las empresas contratan consultores de RRHH para mejorar sus procesos, garantizar el cumplimiento legal y aumentar la satisfacción y productividad de los empleados."},
+    {"question": "¿Qué servicios ofrecen los consultores de RRHH?", "answer": "Los servicios incluyen reclutamiento, formación, gestión del rendimiento, desarrollo de políticas y relaciones laborales."},
+    {"question": "¿Cómo puede beneficiar la consultoría de RRHH a mi empresa?", "answer": "La consultoría de RRHH puede ayudar a optimizar las operaciones, reducir costes y crear una cultura laboral positiva."},
+    {"question": "¿Los consultores de RRHH ayudan con el cumplimiento legal?", "answer": "Sí, los consultores de RRHH aseguran que su empresa cumpla con las leyes y normativas laborales."},
+    {"question": "¿Pueden los consultores de RRHH ayudar con el reclutamiento?", "answer": "Por supuesto, pueden ayudar a atraer, seleccionar y retener el mejor talento para su organización."},
+    {"question": "¿Qué tamaño de empresas se benefician de la consultoría de RRHH?", "answer": "Empresas de todos los tamaños, desde start-ups hasta grandes corporaciones, pueden beneficiarse de la consultoría de RRHH."},
+    {"question": "¿Cómo elijo al consultor de RRHH adecuado?", "answer": "Busque consultores con experiencia relevante, buenas referencias y un sólido conocimiento de su sector."},
+    {"question": "¿La consultoría de RRHH es confidencial?", "answer": "Sí, los consultores profesionales de RRHH mantienen una estricta confidencialidad con toda la información del cliente."},
+    {"question": "¿Cómo se estructuran los honorarios de la consultoría de RRHH?", "answer": "Los honorarios pueden ser por hora, por proyecto o por retención, según el alcance y la duración del trabajo."}
+  ],
+  "heading": "Preguntas frecuentes",
+  "subheading": "Respuestas a preguntas comunes sobre nuestros servicios de consultoría de RRHH."
+} 

@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Blog",
+  "pageIntro": "Perspectivas e historias sobre RRHH, liderazgo y el futuro del trabajo.",
+  "posts": [
+    {
+      "title": "El Futuro del Trabajo Remoto",
+      "summary": "Cómo los modelos remotos e híbridos están transformando las políticas de RRHH y la cultura empresarial.",
+      "author": "Jane Smith",
+      "date": "2024-06-01"
+    },
+    {
+      "title": "Construyendo una Fuerza Laboral Resiliente",
+      "summary": "Estrategias para desarrollar adaptabilidad y resiliencia en tus equipos.",
+      "author": "Matthew Innes",
+      "date": "2024-05-20"
+    },
+    {
+      "title": "Diversidad, Equidad e Inclusión: Más Allá de las Palabras de Moda",
+      "summary": "Pasos prácticos para integrar DEI en el ADN de tu organización.",
+      "author": "Sofia Martinez",
+      "date": "2024-05-10"
+    },
+    {
+      "title": "Tendencias de Tecnología RRHH 2024",
+      "summary": "Las últimas herramientas y plataformas que transforman el panorama de RRHH.",
+      "author": "Alex Johnson",
+      "date": "2024-04-28"
+    },
+    {
+      "title": "Incorporación Efectiva en la Era Digital",
+      "summary": "Cómo crear una experiencia de incorporación fluida para contrataciones remotas y presenciales.",
+      "author": "Priya Patel",
+      "date": "2024-04-15"
+    },
+    {
+      "title": "Salud Mental en el Trabajo: Una Prioridad de Liderazgo",
+      "summary": "Por qué apoyar la salud mental es esencial para la productividad y retención.",
+      "author": "David Lee",
+      "date": "2024-03-30"
+    },
+    {
+      "title": "Navegando los Cambios en la Ley Laboral",
+      "summary": "Actualizaciones legales clave que todo profesional de RRHH debe conocer en 2024.",
+      "author": "Rachel Evans",
+      "date": "2024-03-18"
+    },
+    {
+      "title": "Gestión del Rendimiento Que Funciona",
+      "summary": "Enfoques modernos para evaluaciones, retroalimentación y crecimiento de empleados.",
+      "author": "Tom Walker",
+      "date": "2024-03-01"
+    },
+    {
+      "title": "El Poder del Reconocimiento de Empleados",
+      "summary": "Cómo los programas estructurados de reconocimiento mejoran la moral y retención.",
+      "author": "Emily Clark",
+      "date": "2024-02-20"
+    },
+    {
+      "title": "Analítica RRHH para Mejor Toma de Decisiones",
+      "summary": "Usando datos para impulsar la estrategia de personas y resultados empresariales.",
+      "author": "Carlos Ruiz",
+      "date": "2024-02-10"
+    },
+    {
+      "title": "RRHH Interino y Fraccional: Soluciones Flexibles",
+      "summary": "Cuándo y por qué usar liderazgo RRHH interino o de tiempo parcial.",
+      "author": "Sarah Green",
+      "date": "2024-01-28"
+    },
+    {
+      "title": "Creando una Cultura de Aprendizaje Continuo",
+      "summary": "Fomentando la mejora de habilidades y desarrollo profesional en todos los niveles.",
+      "author": "Mohammed Ali",
+      "date": "2024-01-15"
+    }
+  ]
+} 

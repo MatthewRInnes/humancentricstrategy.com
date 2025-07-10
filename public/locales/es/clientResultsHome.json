@@ -1,0 +1,44 @@
+{
+  "sectionTitle": "Innovaciones de RRHH Orientadas al Futuro",
+  "sectionSubtitle": "Estrategias pioneras para el lugar de trabajo del mañana",
+  "results": [
+    {
+      "title": "Futuro del Trabajo y Fuerza Laboral Híbrida",
+      "desc": "Guiando a las organizaciones para prosperar en entornos híbridos y remotos con políticas flexibles y culturas digitales.",
+      "label": "Éxito Híbrido"
+    },
+    {
+      "title": "Analítica de RRHH e Insights Predictivos",
+      "desc": "Aprovechando la analítica avanzada para predecir tendencias laborales, mejorar la toma de decisiones y potenciar los resultados empresariales.",
+      "label": "RRHH Basado en Datos"
+    },
+    {
+      "title": "Bienestar Financiero del Empleado",
+      "desc": "Implementando programas de bienestar financiero que apoyan la seguridad a largo plazo de los empleados y reducen el estrés laboral.",
+      "label": "Bienestar Financiero"
+    },
+    {
+      "title": "IA y Automatización en RRHH",
+      "desc": "Transformando las operaciones de RRHH con inteligencia artificial y automatización para mayor eficiencia y precisión.",
+      "label": "Automatización Inteligente"
+    },
+    {
+      "title": "RRHH Sostenible y Oficinas Verdes",
+      "desc": "Promoviendo prácticas de RRHH ecológicas y construyendo lugares de trabajo sostenibles y responsables para el futuro.",
+      "label": "Sostenibilidad"
+    },
+    {
+      "title": "Neurodiversidad y Contratación Inclusiva",
+      "desc": "Impulsando la neurodiversidad y la selección inclusiva para liberar el potencial de cada individuo.",
+      "label": "Crecimiento Inclusivo"
+    },
+    {
+      "title": "Liderazgo Remoto y Colaboración Digital",
+      "desc": "Empoderando a los líderes para inspirar, gestionar y colaborar eficazmente en equipos totalmente remotos o distribuidos.",
+      "label": "Liderazgo Remoto"
+    }
+  ],
+  "ctaTitle": "¿Listo para abrazar el futuro de RRHH?",
+  "ctaDesc": "Descubra cómo nuestras estrategias innovadoras pueden preparar su organización para el futuro y empoderar a su gente.",
+  "ctaButton": "Inicie su Transformación"
+} 

@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "6 Pasos para Resolver Problemas",
+  "sectionSubtitle": "Un proceso probado y orientado a resultados para desafíos empresariales",
+  "steps": [
+    {
+      "title": "Definir el problema",
+      "desc": "Identifique claramente el problema y lo que necesita resolverse."
+    },
+    {
+      "title": "Identificar la causa raíz del problema",
+      "desc": "Investigue las causas fundamentales y los problemas subyacentes."
+    },
+    {
+      "title": "Desarrollar soluciones alternativas",
+      "desc": "Cree múltiples soluciones y considere diferentes enfoques."
+    },
+    {
+      "title": "Seleccionar la solución",
+      "desc": "Elija la solución más eficaz para el problema."
+    },
+    {
+      "title": "Implementar la solución",
+      "desc": "Planifique e implemente la solución elegida."
+    },
+    {
+      "title": "Evaluar el resultado",
+      "desc": "Determine si la causa raíz se ha eliminado y mida los resultados."
+    }
+  ]
+} 

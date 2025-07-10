@@ -1,0 +1,46 @@
+{
+  "sectionTitle": "Proven Results & Achievements",
+  "sectionSubtitle": "Real outcomes delivered for growing organizations",
+  "results": [
+    {
+      "metric": "20%",
+      "title": "Employee Retention Enhancement",
+      "desc": "Increased employee retention by 20% through strategic people strategies aligned with organizational goals.",
+      "label": "Retention Increase"
+    },
+    {
+      "metric": "15%",
+      "title": "Talent Acquisition & Retention",
+      "desc": "Reduced turnover by 15% by leading full-cycle talent acquisition and retention initiatives.",
+      "label": "Turnover Reduction"
+    },
+    {
+      "metric": "15%",
+      "title": "Payroll System Optimization",
+      "desc": "Cut payroll processing time by 15% and improved accuracy by 20% through automation and process enhancements.",
+      "label": "Time Savings"
+    },
+    {
+      "metric": "25%",
+      "title": "Employee Wellness & Recognition",
+      "desc": "Boosted employee satisfaction scores by 25% by developing and launching wellness and recognition programs.",
+      "label": "Satisfaction Boost"
+    },
+    {
+      "metric": "20%",
+      "title": "Payroll Compliance & Controls",
+      "desc": "Decreased payroll-related errors by 20% by implementing comprehensive audit controls and compliance measures.",
+      "label": "Error Reduction"
+    },
+    {
+      "metric": "100%",
+      "title": "Workforce Planning & Restructuring",
+      "desc": "Ensured 100% role alignment during restructuring by directing workforce planning and performance management strategies.",
+      "label": "Role Alignment"
+    }
+  ],
+  "ctaTitle": "Ready to achieve similar results?",
+  "ctaDesc": "Let's discuss how we can help your organization improve retention, optimize processes, and boost employee satisfaction.",
+  "ctaButton": "Book your consultation",
+  "learnMore": "Learn More"
+} 

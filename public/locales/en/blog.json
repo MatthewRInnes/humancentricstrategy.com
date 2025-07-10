@@ -1,0 +1,78 @@
+{
+  "pageTitle": "Blog",
+  "pageIntro": "Insights and stories on HR, leadership, and the future of work.",
+  "posts": [
+    {
+      "title": "The Future of Remote Work",
+      "summary": "How remote and hybrid models are reshaping HR policies and company culture.",
+      "author": "Jane Smith",
+      "date": "2024-06-01"
+    },
+    {
+      "title": "Building a Resilient Workforce",
+      "summary": "Strategies for developing adaptability and resilience in your teams.",
+      "author": "Alexandra Brown",
+      "date": "2024-05-20"
+    },
+    {
+      "title": "Diversity, Equity & Inclusion: Beyond the Buzzwords",
+      "summary": "Practical steps to embed DEI into your organization's DNA.",
+      "author": "Sofia Martinez",
+      "date": "2024-05-10"
+    },
+    {
+      "title": "HR Technology Trends 2024",
+      "summary": "The latest tools and platforms transforming the HR landscape.",
+      "author": "Alex Johnson",
+      "date": "2024-04-28"
+    },
+    {
+      "title": "Effective Onboarding in a Digital Age",
+      "summary": "How to create a seamless onboarding experience for remote and in-person hires.",
+      "author": "Priya Patel",
+      "date": "2024-04-15"
+    },
+    {
+      "title": "Mental Health at Work: A Leadership Priority",
+      "summary": "Why supporting mental health is essential for productivity and retention.",
+      "author": "David Lee",
+      "date": "2024-03-30"
+    },
+    {
+      "title": "Navigating Employment Law Changes",
+      "summary": "Key legal updates every HR professional should know in 2024.",
+      "author": "Rachel Evans",
+      "date": "2024-03-18"
+    },
+    {
+      "title": "Performance Management That Works",
+      "summary": "Modern approaches to appraisals, feedback, and employee growth.",
+      "author": "Tom Walker",
+      "date": "2024-03-01"
+    },
+    {
+      "title": "The Power of Employee Recognition",
+      "summary": "How structured recognition programs boost morale and retention.",
+      "author": "Emily Clark",
+      "date": "2024-02-20"
+    },
+    {
+      "title": "HR Analytics for Better Decision-Making",
+      "summary": "Using data to drive people strategy and business outcomes.",
+      "author": "Carlos Ruiz",
+      "date": "2024-02-10"
+    },
+    {
+      "title": "Interim & Fractional HR: Flexible Solutions",
+      "summary": "When and why to use interim or part-time HR leadership.",
+      "author": "Sarah Green",
+      "date": "2024-01-28"
+    },
+    {
+      "title": "Creating a Culture of Continuous Learning",
+      "summary": "Encouraging upskilling and professional development at every level.",
+      "author": "Mohammed Ali",
+      "date": "2024-01-15"
+    }
+  ]
+} 

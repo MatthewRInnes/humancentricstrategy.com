@@ -1,0 +1,27 @@
+{
+  "solutions": {
+    "title": "Our Solutions",
+    "subtitle": "Comprehensive HR Solutions"
+  },
+  "caseStudy": {
+    "title": "Case Study",
+    "subtitle": "How to increase employee engagement?",
+    "left": {
+      "label": "Before",
+      "stat1": "42%",
+      "desc1": "Employee engagement rate before implementing our solutions.",
+      "stat2": "55%",
+      "desc2": "Manager satisfaction before our intervention."
+    },
+    "right": {
+      "label": "After",
+      "stat1": "78%",
+      "desc1": "Employee engagement rate after our tailored HR strategy.",
+      "stat2": "85%",
+      "desc2": "Manager satisfaction after our intervention."
+    },
+    "center": {
+      "desc": "The HR solutions fostered a culture of collaboration, innovation, and wellbeing, driving measurable business results."
+    }
+  }
+} 

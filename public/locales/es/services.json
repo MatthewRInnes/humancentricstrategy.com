@@ -1,0 +1,195 @@
+{
+  "services": {
+    "title": "Nuestros Servicios Básicos",
+    "subtitle": "Lo que ofrecemos para ayudar a que su empresa prospere.",
+    "onboarding": {
+      "title": "Incorporación de Personal",
+      "description": "Dé la bienvenida a los nuevos empleados con una experiencia de incorporación coherente y optimizada que aumenta la productividad desde el primer día."
+    },
+    "sourcing": {
+      "title": "Búsqueda y Adquisición de Talento",
+      "description": "Atraiga al talento adecuado con nuestros procesos de contratación estratégicos y basados en datos y nuestra marca empleadora."
+    },
+    "policy": {
+      "title": "Desarrollo de Políticas",
+      "description": "Manuales de empleados personalizados, procedimientos disciplinarios y políticas adaptadas a la cultura de su empresa y necesidades legales."
+    }
+  },
+  "pageTitle": "Nuestros Servicios",
+  "pageIntro": "Ofrecemos soluciones de RRHH escalables y centradas en las personas, adaptadas al crecimiento, cumplimiento y cultura de su organización.",
+  "categories": [
+    {
+      "title": "Resultados Comprobados y Logros",
+      "subtitle": "Resultados reales entregados para organizaciones en crecimiento.",
+      "items": [
+        { "title": "Mejora de Retención de Empleados", "desc": "Aumentó la retención de empleados en un 20% a través de estrategias de personas alineadas con objetivos organizacionales e iniciativas de crecimiento de la fuerza laboral." },
+        { "title": "Adquisición y Retención de Talento", "desc": "Redujo la rotación en un 15% liderando iniciativas integrales de adquisición y retención de talento, incluyendo contratación dirigida y programas de desarrollo profesional." },
+        { "title": "Optimización de Sistemas de Nómina", "desc": "Redujo el tiempo de procesamiento de nómina en un 15% y mejoró la precisión en un 20% a través de automatización y mejoras de procesos." },
+        { "title": "Cumplimiento y Controles de Nómina", "desc": "Disminuyó los errores relacionados con nómina en un 20% implementando controles de auditoría integrales que identificaron discrepancias y mejoraron el cumplimiento." },
+        { "title": "Bienestar y Reconocimiento de Empleados", "desc": "Aumentó las puntuaciones de satisfacción de empleados en un 25% desarrollando y lanzando programas de bienestar y reconocimiento que fomentaron el compromiso." },
+        { "title": "Planificación de Fuerza Laboral y Reestructuración", "desc": "Aseguró alineación del 100% de roles durante la reestructuración dirigiendo estrategias de planificación de fuerza laboral, sucesión y gestión del rendimiento." }
+      ]
+    },
+    {
+      "title": "Estrategia de RRHH y Alineación Empresarial",
+      "subtitle": "Alineando la estrategia de personas con los objetivos empresariales para un crecimiento sostenible.",
+      "items": [
+        { "title": "Planificación Estratégica de RRHH", "desc": "Desarrolle estrategias integrales de RRHH que apoyen directamente sus objetivos empresariales y visión organizacional." },
+        { "title": "Diseño Organizacional", "desc": "Optimice la estructura de su empresa, roles y relaciones de reporte para máxima eficiencia y efectividad." },
+        { "title": "Planificación de la Fuerza Laboral", "desc": "Pronostique las necesidades futuras de talento y desarrolle estrategias para construir el equipo adecuado en el momento oportuno." },
+        { "title": "Métricas y KPIs de RRHH", "desc": "Establezca métricas significativas de RRHH que demuestren el valor de las iniciativas de personas en los resultados empresariales." },
+        { "title": "Estrategia de Gestión del Cambio", "desc": "Diseñe e implemente marcos de gestión del cambio para asegurar transiciones organizacionales fluidas." },
+        { "title": "Asociación Empresarial", "desc": "Actúe como socios estratégicos de RRHH, trabajando estrechamente con el liderazgo para impulsar decisiones empresariales centradas en las personas." }
+      ]
+    },
+    {
+      "title": "Gestión del Cambio y Transformación",
+      "subtitle": "Guiando organizaciones a través de iniciativas exitosas de cambio y transformación.",
+      "items": [
+        { "title": "Planificación de Gestión del Cambio", "desc": "Desarrolle estrategias integrales de gestión del cambio para fusiones, adquisiciones, reestructuraciones y transformaciones digitales." },
+        { "title": "Compromiso de Partes Interesadas", "desc": "Construya apoyo y respaldo en todos los niveles de la organización a través de estrategias efectivas de comunicación y compromiso." },
+        { "title": "Formación y Desarrollo para el Cambio", "desc": "Diseñe y entregue programas de formación que preparen a los equipos para nuevos procesos, sistemas y formas de trabajar." },
+        { "title": "Gestión de la Resistencia", "desc": "Identifique y aborde la resistencia al cambio a través de estrategias proactivas de comunicación, apoyo e involucramiento." },
+        { "title": "Soporte Post-Cambio", "desc": "Proporcione soporte continuo y refuerzo para asegurar que los cambios se mantengan e integren en la organización." },
+        { "title": "Hojas de Ruta de Transformación", "desc": "Cree hojas de ruta detalladas de transformación con hitos claros, cronogramas y métricas de éxito." }
+      ]
+    },
+    {
+      "title": "Coaching de Liderazgo y Planificación de la Fuerza Laboral",
+      "subtitle": "Desarrollando líderes y planificando las necesidades futuras de talento.",
+      "items": [
+        { "title": "Coaching Ejecutivo", "desc": "Coaching uno a uno para líderes senior para mejorar la efectividad del liderazgo y las capacidades de toma de decisiones." },
+        { "title": "Programas de Desarrollo de Liderazgo", "desc": "Iniciativas integrales de formación y desarrollo de liderazgo para líderes actuales y emergentes." },
+        { "title": "Planificación de Sucesión", "desc": "Identifique y desarrolle empleados de alto potencial para asegurar transiciones de liderazgo fluidas y continuidad." },
+        { "title": "Desarrollo de Canal de Talento", "desc": "Construya canales robustos de talento para asegurar que tenga las personas adecuadas listas para roles clave cuando sea necesario." },
+        { "title": "Coaching de Rendimiento", "desc": "Apoye a los gerentes en el desarrollo de sus equipos a través de técnicas efectivas de coaching y retroalimentación." },
+        { "title": "Planificación Estratégica de la Fuerza Laboral", "desc": "Planificación a largo plazo para asegurar que su fuerza laboral tenga las habilidades y capacidades necesarias para el éxito empresarial futuro." }
+      ]
+    },
+    {
+      "title": "Recompensas Totales y Gestión del Rendimiento",
+      "subtitle": "Sistemas integrales de compensación, beneficios y rendimiento que impulsan resultados.",
+      "items": [
+        { "title": "Estrategia de Compensación", "desc": "Diseñe estructuras de compensación competitivas que se alineen con los objetivos empresariales y las condiciones del mercado." },
+        { "title": "Diseño de Programas de Beneficios", "desc": "Cree paquetes de beneficios atractivos que apoyen el bienestar de los empleados y el equilibrio trabajo-vida." },
+        { "title": "Sistemas de Gestión del Rendimiento", "desc": "Desarrolle marcos de gestión del rendimiento orientados a objetivos que impulsen el éxito individual y organizacional." },
+        { "title": "Diseño de Programas de Incentivos", "desc": "Diseñe programas de bonos, comisiones e incentivos que motiven y recompensen el alto rendimiento." },
+        { "title": "Evaluación y Clasificación de Puestos", "desc": "Establezca sistemas de evaluación de puestos justos y consistentes para asegurar equidad interna y competitividad externa." },
+        { "title": "Programas de Reconocimiento", "desc": "Implemente programas formales e informales de reconocimiento que celebren logros y mejoren la moral." }
+      ]
+    },
+    {
+      "title": "Tecnología de RRHH y Sistemas HRIS",
+      "subtitle": "Implementación y optimización experta de soluciones de tecnología de RRHH.",
+      "items": [
+        { "title": "Implementación de HRIS", "desc": "Implementación integral de sistemas de RRHH incluyendo Oracle HCM, ADP Workforce Now e isolved People Cloud." },
+        { "title": "Selección y Evaluación de Sistemas", "desc": "Ayúdese a elegir la plataforma de tecnología de RRHH adecuada basada en sus necesidades específicas y presupuesto." },
+        { "title": "Migración e Integración de Datos", "desc": "Migración fluida de datos de RRHH e integración con sistemas empresariales y procesos existentes." },
+        { "title": "Formación y Adopción de Usuarios", "desc": "Programas de formación integrales para asegurar la adopción exitosa del sistema en toda su organización." },
+        { "title": "Analítica e Informes de RRHH", "desc": "Configure capacidades avanzadas de informes y analítica para impulsar decisiones de RRHH basadas en datos." },
+        { "title": "Optimización de Sistemas", "desc": "Optimice sistemas de RRHH existentes para mejorar la eficiencia, experiencia del usuario y retorno de inversión." }
+      ]
+    },
+    {
+      "title": "Cumplimiento Multi-Estado y Soluciones de RRHH Escalables",
+      "subtitle": "Asegurando cumplimiento en múltiples jurisdicciones mientras construye procesos de RRHH escalables.",
+      "items": [
+        { "title": "Cumplimiento Multi-Estado", "desc": "Navegue leyes laborales complejas en múltiples estados y jurisdicciones con confianza." },
+        { "title": "Auditorías de Cumplimiento", "desc": "Auditorías integrales para identificar y abordar brechas de cumplimiento en sus políticas y prácticas de RRHH." },
+        { "title": "Armonización de Políticas", "desc": "Desarrolle políticas que funcionen en diferentes ubicaciones mientras respetan los requisitos legales locales." },
+        { "title": "Procesos de RRHH Escalables", "desc": "Diseñe procesos de RRHH que puedan crecer con su negocio y adaptarse a las necesidades organizacionales cambiantes." },
+        { "title": "Formación de Cumplimiento", "desc": "Entregue formación dirigida sobre leyes laborales, seguridad en el lugar de trabajo y requisitos regulatorios." },
+        { "title": "Gestión de Riesgos", "desc": "Identifique y mitigue riesgos relacionados con RRHH a través de monitoreo y gestión proactiva del cumplimiento." }
+      ]
+    },
+    {
+      "title": "Servicios Básicos de RRHH",
+      "subtitle": "Soporte fundamental de RRHH para empresas en crecimiento.",
+      "items": [
+        { "title": "Incorporación de Personal", "desc": "Dé la bienvenida a los nuevos empleados con una experiencia de incorporación coherente y optimizada que aumenta la productividad desde el primer día." },
+        { "title": "Desarrollo de Políticas", "desc": "Manuales de empleados personalizados, procedimientos disciplinarios y políticas adaptadas a la cultura de su empresa y necesidades legales." },
+        { "title": "Manuales de Empleados", "desc": "Manuales claros, atractivos y conformes a la ley para guiar a su equipo y definir expectativas laborales." },
+        { "title": "Auditorías de RRHH", "desc": "Evaluaciones exhaustivas de su estructura, políticas y procesos de RRHH actuales con recomendaciones prácticas para mejorar." },
+        { "title": "Datos y Analítica de RRHH", "desc": "Transforme la toma de decisiones de RRHH con información procesable basada en datos y analítica de la fuerza laboral." },
+        { "title": "Compensación y Beneficios", "desc": "Diseñe y gestione paquetes competitivos de compensación y beneficios para atraer y retener al mejor talento." }
+      ]
+    },
+    {
+      "title": "Gestión del Talento",
+      "subtitle": "Encontrar, desarrollar y retener a su mejor personal.",
+      "items": [
+        { "title": "Búsqueda y Adquisición de Talento", "desc": "Atraiga al talento adecuado con nuestros procesos de contratación estratégicos y basados en datos y nuestra marca empleadora." },
+        { "title": "Gestión del Desempeño", "desc": "Implemente sistemas de evaluación y KPIs orientados a objetivos para impulsar el rendimiento individual y de equipo." },
+        { "title": "Planificación de Sucesión", "desc": "Identifique y prepare talento interno para garantizar transiciones fluidas en puestos clave." },
+        { "title": "Formación y Desarrollo", "desc": "Planes de aprendizaje y desarrollo personalizados para liderazgo, cumplimiento, diversidad y habilidades específicas de cada puesto." },
+        { "title": "Planificación de Carrera", "desc": "Ayude a los empleados a trazar su progresión profesional y oportunidades de crecimiento dentro de su organización." },
+        { "title": "Reconocimiento de Empleados", "desc": "Mejore la moral y la retención con programas estructurados de reconocimiento y recompensas." }
+      ]
+    },
+    {
+      "title": "Cultura y Compromiso",
+      "subtitle": "Fomente un lugar de trabajo donde las personas prosperen.",
+      "items": [
+        { "title": "Programas de Compromiso de Empleados", "desc": "Encuestas de pulso, herramientas de compromiso y talleres de cultura para fomentar la lealtad y la satisfacción laboral." },
+        { "title": "Iniciativas de Bienestar", "desc": "Apoye la salud mental, el equilibrio entre la vida laboral y personal y la resiliencia mediante programas proactivos." },
+        { "title": "Estrategia DEI (Diversidad, Equidad e Inclusión)", "desc": "Fomente una cultura inclusiva con formación, políticas y estrategias de reclutamiento que celebren la diversidad." }
+      ]
+    },
+    {
+      "title": "Cumplimiento y Riesgo",
+      "subtitle": "Manténgase protegido, actualizado y conforme a la ley.",
+      "items": [
+        { "title": "Revisiones de Cumplimiento de RRHH", "desc": "Asegure el cumplimiento de la legislación laboral, GDPR y normativas de salud y seguridad." },
+        { "title": "Resolución de Conflictos y Mediación", "desc": "Servicios independientes de resolución de quejas, disputas y asuntos delicados de personal." },
+        { "title": "Investigaciones Laborales", "desc": "Investigaciones discretas y profesionales sobre conductas o preocupaciones de cumplimiento de empleados." }
+      ]
+    },
+    {
+      "title": "Soporte de RRHH Interino y Fraccional",
+      "subtitle": "Liderazgo de RRHH flexible cuando y donde lo necesite.",
+      "items": [
+        { "title": "Directores/Gerentes de RRHH Interinos", "desc": "Soporte temporal de RRHH senior para proyectos, transiciones o vacíos de liderazgo." },
+        { "title": "Servicios de RRHH Fraccionales", "desc": "Soporte de RRHH escalable y a tiempo parcial para startups y pymes sin departamentos internos de RRHH." },
+        { "title": "Soporte de RRHH por Proyecto", "desc": "Asistencia experta en RRHH para proyectos específicos, como fusiones, adquisiciones o cambios organizativos." }
+      ]
+    }
+  ],
+  "strategySection": {
+    "headline": "Excelencia Estratégica en RRHH",
+    "description": "Ayudamos a las organizaciones a lograr un crecimiento sostenible mediante una estrategia de RRHH innovadora y alineación empresarial. Nuestro enfoque combina visión, datos y liderazgo centrado en las personas.",
+    "imageAlt": "Ilustración de concepto de estrategia",
+    "cards": [
+      {
+        "title": "Visión Estratégica",
+        "text": "Anticipe desafíos y oportunidades futuras con una planificación proactiva de RRHH. Le ayudamos a construir estrategias ágiles que se adapten a los cambios del mercado, tendencias laborales y objetivos empresariales.",
+        "extra": "Nuestro equipo colabora estrechamente con su liderazgo para identificar riesgos emergentes, desarrollar planes de contingencia y asegurar que su estrategia de personas siempre esté un paso adelante. Este enfoque proactivo le ayuda a mantenerse resiliente y competitivo en un entorno empresarial en constante cambio."
+      },
+      {
+        "title": "Toma de Decisiones Basada en Datos",
+        "text": "Aproveche la analítica y los conocimientos basados en datos para informar su estrategia de RRHH. Nuestras soluciones le permiten tomar decisiones más inteligentes, optimizar recursos y lograr resultados medibles.",
+        "extra": "Implementamos herramientas avanzadas de analítica de RRHH y ofrecemos formación para que su equipo pueda interpretar los datos de manera efectiva. Esto le permite seguir métricas clave, medir el impacto de las iniciativas y mejorar continuamente sus resultados de RRHH."
+      }
+    ]
+  },
+  "addons": {
+    "title": "Servicios Adicionales",
+    "items": [
+      "Implementación de Software de RRHH a Medida",
+      "Configuración y Asesoría de Nóminas",
+      "Creación de Descripciones de Puestos",
+      "Análisis de Entrevistas de Salida",
+      "Paneles de Informes de RRHH",
+      "Diseño y Análisis de Encuestas de Empleados",
+      "Documentación de Procesos de RRHH",
+      "Selección y Gestión de Proveedores",
+      "Planificación y Gestión de Presupuesto de RRHH",
+      "Soporte de Relaciones con Empleados"
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para mejorar su RRHH?",
+    "desc": "Hable hoy con un consultor para explorar cómo podemos apoyar su estrategia de personal.",
+    "button": "Solicite su Demo",
+    "consultantButton": "Hablar con un consultor"
+  }
+} 

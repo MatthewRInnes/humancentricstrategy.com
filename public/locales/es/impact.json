@@ -1,0 +1,27 @@
+{
+  "sectionTitle": "Nuestro Impacto",
+  "sectionSubtitle": "Resultados reales para clientes reales en diferentes sectores.",
+  "challengeHeading": "El Reto",
+  "solutionHeading": "Nuestra Solución",
+  "resultsHeading": "Resultados",
+  "stories": [
+    {
+      "industry": "Tecnología",
+      "challenge": "Alta rotación de empleados en una empresa de software en rápido crecimiento.",
+      "solution": "Implementación de un programa de incorporación estructurado y formación en liderazgo.",
+      "results": "La rotación disminuyó un 35% y la satisfacción de los empleados aumentó un 22%."
+    },
+    {
+      "industry": "Sanidad",
+      "challenge": "Dificultad para atraer enfermeros cualificados a un hospital regional.",
+      "solution": "Desarrollo de una campaña de reclutamiento dirigida y mejora del paquete de beneficios.",
+      "results": "La tasa de vacantes se redujo en un 50% y el tiempo de contratación se redujo a la mitad."
+    },
+    {
+      "industry": "Comercio Minorista",
+      "challenge": "Bajas calificaciones de servicio al cliente y alta rotación de personal temporal.",
+      "solution": "Introducción de formación en atención al cliente y horarios flexibles.",
+      "results": "La satisfacción del cliente aumentó un 18% y la retención temporal mejoró un 40%."
+    }
+  ]
+} 

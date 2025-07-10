@@ -1,0 +1,26 @@
+{
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Success Stories",
+    "items": [
+      {
+        "quote": "Human Centric Strategy transformed our HR processes completely. Their expertise and dedication are unmatched.",
+        "author": "Sarah Johnson",
+        "position": "CEO, TechStart Inc.",
+        "company": "TechStart Inc."
+      },
+      {
+        "quote": "The team at Human Centric Strategy helped us build a world-class HR department from the ground up.",
+        "author": "Michael Chen",
+        "position": "HR Director",
+        "company": "Global Solutions Ltd."
+      },
+      {
+        "quote": "Professional, responsive, and results-driven. They've become an integral part of our business success.",
+        "author": "Emily Rodriguez",
+        "position": "Operations Manager",
+        "company": "InnovateCorp"
+      }
+    ]
+  }
+} 
