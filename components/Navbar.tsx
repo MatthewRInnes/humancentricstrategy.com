@@ -34,14 +34,16 @@ export const Navbar: React.FC = () => {
           {/* Logo - Reduced top padding (pt-5) to move logo up by 20px */}
           <Link href="/" className="flex items-center pt-5">
             {/* Logo image with white background for visibility in all modes */}
-            <span className="bg-white rounded-lg flex flex-col items-center justify-center" style={{ padding: '10px 20px' }}> {/* Smaller, responsive logo area (American English comment) */}
+            <span className="bg-white rounded-lg flex flex-col items-center justify-center" style={{ padding: '10px 20px' }}> {/* Smaller, responsive logo area (British English comment) */}
               <Image
-                src="/images/humanGraphic.png" // Updated logo to humanGraphic.png
+                src="/images/humanGraphic.png" // Logo image
                 alt="Human Centric Consulting Logo Graphic"
                 width={48}
                 height={48}
                 className="object-contain w-10 h-10 md:w-14 md:h-14 lg:w-10 lg:h-10 mb-1" // Made logo even smaller on large screens (British English comment)
               />
+              <span className="font-playfair font-bold text-xs md:text-sm lg:text-base text-charcoal leading-tight tracking-wide text-center mt-1">{/* Logo writing (British English comment) */}HUMAN CENTRIC CONSULTING</span>
+              <span className="font-merriweather text-[8px] md:text-[10px] lg:text-xs text-charcoal tracking-widest mt-1 text-center">{/* Tagline (British English comment) */}— YOUR HR BUSINESS PARTNERS —</span>
             </span>
           </Link>
 
