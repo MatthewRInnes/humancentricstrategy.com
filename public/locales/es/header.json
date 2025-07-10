@@ -5,12 +5,8 @@
     "solutions": "Soluciones",
     "services": "Servicios",
     "blog": "Blog",
-    "testimonials": "Testimonios",
+    "testimonios": "Testimonios",
     "contact": "Contacto"
-  },
-  "language": {
-    "en": "English",
-    "es": "Español"
   },
   "language.en": "Inglés",
   "language.es": "Español"
