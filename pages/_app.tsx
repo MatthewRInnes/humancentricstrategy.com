@@ -1,5 +1,7 @@
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
+// Import the i18n config for next-i18next (British English comment)
+import nextI18NextConfig from '../next-i18next.config.js'
 import { DarkModeProvider } from '../contexts/DarkModeContext'
 import { DefaultSeo } from 'next-seo'
 import '../styles/globals.css'
@@ -37,4 +39,5 @@ function App({ Component, pageProps }: AppProps) {
   )
 }
 
-export default appWithTranslation(App) 
+// Export the app wrapped with translation and config (British English comment)
+export default appWithTranslation(App, nextI18NextConfig) 
