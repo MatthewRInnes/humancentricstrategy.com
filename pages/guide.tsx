@@ -161,28 +161,31 @@ const GuidePage: React.FC = () => {
             <h2 className="text-2xl font-bold mb-4 text-center relative z-10">{t('timelineHeading')}</h2>
             {/* Responsive timeline: horizontal scroll on mobile, full width on desktop (British English comment) */}
             <div className="w-full overflow-x-auto pb-4">
-              <div className="min-w-[600px] md:min-w-0 flex flex-col items-center">
-                <svg
-                  width="100%"
-                  height="120"
-                  viewBox={`0 0 ${Math.max((timeline.length - 1) * 120 + 120, 700)} 120`}
-                  className="mb-4"
-                  style={{ minWidth: `${timeline.length * 120}px`, maxWidth: '100%' }}
-                >
-                  {/* Timeline line */}
-                  <rect x="60" y="60" width={(timeline.length - 1) * 120} height="4" fill="#c4a35a" />
-                  {/* Steps */}
-                  {Array.isArray(timeline) && timeline.map((label, idx) => (
-                    <g key={idx}>
-                      <circle cx={60 + idx * 120} cy="62" r="18" fill="#fff" stroke="#c4a35a" strokeWidth="4" />
-                      <text x={60 + idx * 120} y="68" textAnchor="middle" fontSize="18" fill="#c4a35a" fontWeight="bold">{idx + 1}</text>
-                    </g>
-                  ))}
-                </svg>
-                <div className="flex justify-between w-full" style={{ minWidth: `${timeline.length * 120}px`, maxWidth: '100%' }}>
-                  {Array.isArray(timeline) && timeline.map((label, idx) => (
-                    <span key={idx} className="w-32 text-center text-sm text-gray-600 dark:text-gray-300">{label}</span>
-                  ))}
+              {/* Use flex-row so timeline and labels scroll together horizontally (British English comment) */}
+              <div className="flex flex-row items-start min-w-[600px] md:min-w-0">
+                <div>
+                  <svg
+                    width="100%"
+                    height="120"
+                    viewBox={`0 0 ${Math.max((timeline.length - 1) * 120 + 120, 700)} 120`}
+                    className="mb-4"
+                    style={{ minWidth: `${timeline.length * 120}px`, maxWidth: '100%' }}
+                  >
+                    {/* Timeline line */}
+                    <rect x="60" y="60" width={(timeline.length - 1) * 120} height="4" fill="#c4a35a" />
+                    {/* Steps */}
+                    {Array.isArray(timeline) && timeline.map((label, idx) => (
+                      <g key={idx}>
+                        <circle cx={60 + idx * 120} cy="62" r="18" fill="#fff" stroke="#c4a35a" strokeWidth="4" />
+                        <text x={60 + idx * 120} y="68" textAnchor="middle" fontSize="18" fill="#c4a35a" fontWeight="bold">{idx + 1}</text>
+                      </g>
+                    ))}
+                  </svg>
+                  <div className="flex justify-between w-full" style={{ minWidth: `${timeline.length * 120}px`, maxWidth: '100%' }}>
+                    {Array.isArray(timeline) && timeline.map((label, idx) => (
+                      <span key={idx} className="w-32 text-center text-sm text-gray-600 dark:text-gray-300">{label}</span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

@@ -42,7 +42,7 @@ export const ClientResults: React.FC = () => {
       {/* Results grid */}
       <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
         {results.map((result, idx) => (
-          <div key={result.title} className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
+          <div key={result.title} className="bg-white dark:bg-gray-800 p-8 pb-6 rounded-xl shadow-lg flex flex-col items-center text-center"> {/* Added extra bottom padding for better spacing (British English comment) */}
             {/* Result icon */}
             <div className="mb-4">{icons[idx]}</div>
             {/* Metric */}

@@ -24,7 +24,7 @@ const CaseStudy: React.FC = () => {
           <div className="text-gray-600 dark:text-gray-300 mb-4 text-center">{t('left.desc1')}</div>
           {/* Large stat 2 */}
           <div className="text-2xl font-bold text-blue-500 dark:text-blue-100 mb-2">{t('left.stat2')}</div>
-          <div className="text-gray-600 dark:text-gray-300 text-center">{t('left.desc2')}</div>
+          <div className="text-gray-600 dark:text-gray-300 text-center mb-6">{t('left.desc2')}</div> {/* Added extra margin below for spacing (British English comment) */}
         </div>
 
         {/* Centre column: Main case study summary */}

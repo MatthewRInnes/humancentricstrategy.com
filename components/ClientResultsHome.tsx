@@ -52,7 +52,7 @@ const ClientResultsHome: React.FC = () => {
         {/* Results grid - each card is a unique, modern HR topic */}
         <div className="grid md:grid-cols-3 gap-10 w-full"> {/* Grid fills container width (American English comment) */}
           {results.map((result, idx) => (
-            <div key={result.title} className="bg-white/80 dark:bg-gray-800/80 p-10 rounded-2xl shadow-lg flex flex-col items-center text-center w-full mx-auto h-full"> {/* Card fills grid column for perfect alignment (American English comment) */}
+            <div key={result.title} className="bg-white/80 dark:bg-gray-800/80 p-10 pb-8 rounded-2xl shadow-lg flex flex-col items-center text-center w-full mx-auto h-full"> {/* Added extra bottom padding for mobile spacing (British English comment) */}
               {/* Result icon */}
               <div className="mb-4">{icons[idx]}</div>
               {/* Result title */}

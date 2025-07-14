@@ -15,8 +15,8 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-2 flex flex-col items-center">
             {/* Logo image with white background for visibility in all modes, now with 20px padding on all sides and tightly wrapped */}
             <span
-              className="bg-white rounded-lg inline-flex items-center justify-center mb-2"
-              style={{ padding: '20px 40px' }} // More horizontal padding for a wider logo background (American English comment)
+              className="bg-white rounded-lg inline-flex flex-col items-center justify-center mb-2"
+              style={{ padding: '20px 40px' }} // More horizontal padding for a wider logo background (British English comment)
             >
               <Image
                 src="/images/humanGraphic.png"
@@ -25,6 +25,14 @@ export const Footer: React.FC = () => {
                 height={60}
                 className="object-contain"
               />
+              {/* Logo writing (British English comment) */}
+              <span className="font-playfair font-bold text-xs md:text-sm lg:text-base text-charcoal leading-tight tracking-wide text-center mt-1">
+                {t('logoTitle')}
+              </span>
+              {/* Tagline (British English comment) */}
+              <span className="font-merriweather text-[8px] md:text-[10px] lg:text-xs text-charcoal tracking-widest mt-1 text-center">
+                — {t('logoSubtitle')} —
+              </span>
             </span>
             {/* Company description for credibility (British English comment) */}
             <p className="text-gray-300 text-center text-sm mb-4 max-w-xs">
