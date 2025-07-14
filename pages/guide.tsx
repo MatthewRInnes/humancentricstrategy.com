@@ -159,34 +159,37 @@ const GuidePage: React.FC = () => {
               <div className="w-full h-full rounded-full bg-gradient-to-br from-gold/30 to-transparent blur-2xl" />
             </div>
             <h2 className="text-2xl font-bold mb-4 text-center relative z-10">{t('timelineHeading')}</h2>
-            {/* Responsive timeline: horizontal scroll on mobile, full width on desktop (British English comment) */}
-            <div className="w-full overflow-x-auto pb-4">
-              {/* Use flex-row so timeline and labels scroll together horizontally (British English comment) */}
-              <div className="flex flex-row items-start min-w-[600px] md:min-w-0">
-                <div>
-                  <svg
-                    width="100%"
-                    height="120"
-                    viewBox={`0 0 ${Math.max((timeline.length - 1) * 120 + 120, 700)} 120`}
-                    className="mb-4"
-                    style={{ minWidth: `${timeline.length * 120}px`, maxWidth: '100%' }}
+            {/* Responsive timeline: no horizontal scroll, always fits screen (British English comment) */}
+            <div className="w-full max-w-3xl mx-auto aspect-[7/1] flex flex-col items-center justify-center"> {/* Increased aspect ratio for a larger timeline (British English comment) */}
+              <svg
+                width="100%"
+                height="120"
+                viewBox={`0 0 100 120`}
+                className="mb-2"
+              >
+                {/* Timeline line */}
+                <rect x="10" y="60" width="80" height="4" fill="#c4a35a" />
+                {/* Steps */}
+                {Array.isArray(timeline) && timeline.map((label, idx) => {
+                  const x = 10 + (80 * idx) / (timeline.length - 1);
+                  return (
+                    <g key={idx}>
+                      <circle cx={x} cy="62" r="10" fill="#fff" stroke="#c4a35a" strokeWidth="2" />
+                      <text x={x} y="68" textAnchor="middle" fontSize="12" fill="#c4a35a" fontWeight="bold">{idx + 1}</text>
+                    </g>
+                  );
+                })}
+              </svg>
+              <div className="flex justify-between w-full">
+                {Array.isArray(timeline) && timeline.map((label, idx) => (
+                  <span
+                    key={idx}
+                    className="flex-1 text-center text-xs md:text-sm text-gray-600 dark:text-gray-300"
+                    style={{ minWidth: 0, wordBreak: 'break-word' }}
                   >
-                    {/* Timeline line */}
-                    <rect x="60" y="60" width={(timeline.length - 1) * 120} height="4" fill="#c4a35a" />
-                    {/* Steps */}
-                    {Array.isArray(timeline) && timeline.map((label, idx) => (
-                      <g key={idx}>
-                        <circle cx={60 + idx * 120} cy="62" r="18" fill="#fff" stroke="#c4a35a" strokeWidth="4" />
-                        <text x={60 + idx * 120} y="68" textAnchor="middle" fontSize="18" fill="#c4a35a" fontWeight="bold">{idx + 1}</text>
-                      </g>
-                    ))}
-                  </svg>
-                  <div className="flex justify-between w-full" style={{ minWidth: `${timeline.length * 120}px`, maxWidth: '100%' }}>
-                    {Array.isArray(timeline) && timeline.map((label, idx) => (
-                      <span key={idx} className="w-32 text-center text-sm text-gray-600 dark:text-gray-300">{label}</span>
-                    ))}
-                  </div>
-                </div>
+                    {label}
+                  </span>
+                ))}
               </div>
             </div>
           </section>
