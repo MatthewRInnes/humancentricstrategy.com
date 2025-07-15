@@ -27,14 +27,14 @@ export const Navbar: React.FC = () => {
   const handleMobileLinkClick = () => setMobileMenuOpen(false)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/70 dark:bg-dark/70 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm border-b border-gray-200"> {/* Always white background, no dark mode for nav (British English comment) */}
       {/* Increased navbar height to h-44 + 14px for 30px more background space */}
       <div className="container-custom">
         <div className="flex items-center justify-between h-44 md:h-56 lg:h-48 pb-6 md:pb-6 lg:pb-5">{/* Reduced mobile navbar height by 50px (h-44 instead of h-56) for better alignment on mobiles (British English comment) */}
           {/* Logo - Reduced top padding (pt-5) to move logo up by 20px */}
           <Link href="/" className="flex items-center pt-5">
-            {/* Logo image with white background for visibility in all modes */}
-            <span className="bg-white rounded-lg flex flex-col items-center justify-center" style={{ padding: '10px 20px' }}> {/* Smaller, responsive logo area (British English comment) */}
+            {/* Logo image with transparent background for proper embedding (British English comment) */}
+            <span className="flex flex-col items-center justify-center" style={{ padding: '10px 20px' }}> {/* Removed white background (British English comment) */}
               <Image
                 src="/images/humanGraphic.png" // Logo image
                 alt="Human Centric Consulting Logo Graphic"
@@ -48,14 +48,13 @@ export const Navbar: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-4"> {/* Show nav links only on large screens and up (American English comment) */}
+          <div className="hidden lg:flex items-center space-x-4"> {/* Show nav links only on large screens and up (British English comment) */}
             {/* Reduced space-x-8 to space-x-4 for less space between links */}
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-charcoal dark:text-white hover:text-gold dark:hover:text-gold transition-colours duration-200 font-medium text-sm md:text-base lg:text-base"
-                // Made text smaller and responsive: text-sm on small screens, text-base on medium and large
+                className="text-charcoal hover:text-gold transition-colours duration-200 font-medium text-sm md:text-base lg:text-base" // Always dark text for nav links (British English comment)
               >
                 {item.label}
               </Link>
@@ -64,13 +63,13 @@ export const Navbar: React.FC = () => {
 
           {/* Controls */}
           <div className="flex items-center space-x-4">
-            <LanguageSwitcher />
+            <LanguageSwitcher variant="nav" /> {/* Use nav variant for gold background and dark text, always visible (British English comment) */}
             <ClientOnly>
-              <DarkModeToggle />
+              <DarkModeToggle /> {/* Keep dark mode toggle so rest of site can use dark mode (British English comment) */}
             </ClientOnly>
             {/* Mobile menu button */}
             <button 
-              className="lg:hidden p-2 rounded-lg text-charcoal dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
+              className="lg:hidden p-2 rounded-lg text-charcoal hover:bg-gray-100"
               aria-label="Toggle mobile menu"
               onClick={() => setMobileMenuOpen((open) => !open)}
             >
@@ -82,13 +81,13 @@ export const Navbar: React.FC = () => {
         </div>
         {/* Mobile menu dropdown - only visible when open on small screens */}
         {mobileMenuOpen && (
-          <div className="lg:hidden absolute left-0 right-0 top-full bg-white dark:bg-dark shadow-lg border-b border-gray-200 dark:border-gray-800 animate-fade-in">
+          <div className="lg:hidden absolute left-0 right-0 top-full bg-white shadow-lg border-b border-gray-200 animate-fade-in"> {/* Always white background for mobile menu (British English comment) */}
             <div className="flex flex-col items-start p-6 space-y-4">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-charcoal dark:text-white hover:text-gold dark:hover:text-gold transition-colours duration-200 font-medium text-lg w-full"
+                  className="text-charcoal hover:text-gold transition-colours duration-200 font-medium text-lg w-full" // Always dark text for mobile nav links (British English comment)
                   onClick={handleMobileLinkClick}
                 >
                   {item.label}

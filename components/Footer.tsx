@@ -8,15 +8,15 @@ export const Footer: React.FC = () => {
   const { t } = useTranslation('footer')
 
   return (
-    <footer className="bg-charcoal dark:bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 text-white py-12"> {/* Always dark background for footer, regardless of mode (British English comment) */}
       <div className="container-custom">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2 flex flex-col items-center">
-            {/* Logo image with white background for visibility in all modes, now with 20px padding on all sides and tightly wrapped */}
+            {/* Logo image with transparent background for proper embedding (British English comment) */}
             <span
-              className="bg-white rounded-lg inline-flex flex-col items-center justify-center mb-2"
-              style={{ padding: '20px 40px' }} // More horizontal padding for a wider logo background (British English comment)
+              className="inline-flex flex-col items-center justify-center mb-2" // Removed bg-white and rounded-lg (British English comment)
+              style={{ padding: '20px 40px' }}
             >
               <Image
                 src="/images/humanGraphic.png"
@@ -26,11 +26,11 @@ export const Footer: React.FC = () => {
                 className="object-contain"
               />
               {/* Logo writing (British English comment) */}
-              <span className="font-playfair font-bold text-xs md:text-sm lg:text-base text-charcoal leading-tight tracking-wide text-center mt-1">
+              <span className="font-playfair font-bold text-xs md:text-sm lg:text-base text-white leading-tight tracking-wide text-center mt-1"> {/* Logo text is now always white (British English comment) */}
                 {t('logoTitle')}
               </span>
               {/* Tagline (British English comment) */}
-              <span className="font-merriweather text-[8px] md:text-[10px] lg:text-xs text-charcoal tracking-widest mt-1 text-center">
+              <span className="font-merriweather text-[8px] md:text-[10px] lg:text-xs text-white tracking-widest mt-1 text-center"> {/* Tagline is now always white (British English comment) */}
                 — {t('logoSubtitle')} —
               </span>
             </span>
